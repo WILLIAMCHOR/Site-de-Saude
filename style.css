@@ -1,7 +1,38 @@
-/* * {
+*{
     padding: 0;
     margin: 0;
     vertical-align: baseline;
     list-style: none;
-    border: 0;
-} CSS reset*/
+    border: 0
+    }
+/*CSS reset*/
+/*-----------------------------------------
+            formatação geral      
+    --------------------------------------*/
+.krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+header h1#titulo {
+    font-family: 'Krona One';
+    font-size: 5rem;
+}
+body {
+    font-family: 'Krona One';
+    font-size: 1rem;
+}
+
+
+
+/*-----------------------------------------
+            formatação do topo          
+    ---------------------------------------*/
+
+/*-----------------------------------------
+            formatação do corpo         
+    --------------------------------------*/
+
+/*-----------------------------------------
+            formatação do rodapé       
+    --------------------------------------*/
