@@ -13,15 +13,79 @@
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    
  }
-header h1#titulo {
+header h1.titulo {
     font-family: 'Krona One';
-    font-size: 5rem;
+    font-size: 4rem;
+    color: white;
+}
+html h2{
+    font-size: 3rem;
+}
+html h3{
+    font-size: 2.5rem;
+}
+html p{
+    font-size: 2rem;
+}
+.branco {
+    font-family: 'Krona One';
+    color: white;
 }
 body {
     font-family: 'Krona One';
     font-size: 1rem;
+    background-color: #727272;
 }
+
+p {
+    color: white;
+}
+
+p strong {
+    color: black;
+}
+section#inicio {
+    padding: 3vw 15vw 0 15vw;
+}
+
+section#inicio p {
+    padding: 1vw 0 1vw 0;
+}
+section#inicio #alinhamento{
+    padding: 2vw 3vw 4vw 3vw;
+}
+section#esportes #quadroimages{
+    padding: 5vw 13vw 23vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    width: 1500px;
+    height: 600px;
+}
+section#esportes p{
+    padding: 3vw 15vw 0 15vw;
+}
+section#esportes h2 {
+    padding: 3vw 35vw 0 35vw;
+    font-size: 5rem;
+}
+section#esportes #quadroimages img {
+    width: 100%; /* Imagem ocupa 100% da largura da célula */
+    height: 100%; /* Imagem ocupa 100% da altura da célula */
+    object-fit: cover; /* Mantém a proporção da imagem e cobre a célula */
+    border-radius: 15px;
+    display: block; /* Remove o espaço abaixo da imagem */
+}
+section#inicio #backgroundescuro{
+    padding: 20px;
+    background-color: #5B5A5A;
+    border-radius: 1vw;
+}
+    
+
 
 
 
