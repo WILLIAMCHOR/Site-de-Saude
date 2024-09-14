@@ -151,7 +151,6 @@ section#inicio #backgroundescuro {
     position: fixed;
     overflow-y: hidden;
     width: 100%;
-    padding-bottom: 200px;
 }
 
 #nav ul {
@@ -224,13 +223,21 @@ nav ul .tituloDoNav {
 .indexFoto {
     /* Recomendo usar essas configurações no resto das páginas */
     background-image: url(src/banner/banner.rebecaandrade.jpeg);
-    background-color: wheat;
     width: 100%;
     height: 49vw;
     padding-top: 1vw;
     margin: 0 0 2vw 0;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.indexFoto h1, .indexFoto h2 {
+    margin-left: 2vw;
+}
+.indexFoto h2 {
+    margin-bottom: 3vw;
 }
 
 /*-----------------------------------------
