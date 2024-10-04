@@ -13,12 +13,12 @@
 
 </head>
 
-<body>
+<body class="indexPagina">
     <nav id="nav"> <!--menu-->
         <ul class="navegador">
             <li>
                 <ul>
-                    <li class="botaoRedondo"><a href="#inicio">Início</a></li>
+                    <li class="botaoRedondo"><a href="index.html">Início</a></li>
                     <li>
                         <details>
                             <summary class="botaoRedondo">Esportes</summary>
@@ -42,9 +42,20 @@
         </ul>
     </nav> <!-- end menu -->
 
-    <header class="indexFoto">
-        <h1 class="titulo">Athletic Punk</h1>
-        <h2 class="branco">saúde nos esportes</h2>
+    <header>
+        <div class="divHeader">
+            <h1 class="titulo">Athletic Punk</h1>
+            <ul class="pequenosDetalhes">
+                <li class="bolinha"></li>
+                <li class="bolinha"></li>
+                <li class="bolinha"></li>
+                <li class="linhazinha"></li>
+                <li class="bolinha"></li>
+                <li class="bolinha"></li>
+                <li class="bolinha"></li>
+            </ul>
+            <h2 class="branco">saúde nos esportes</h2>
+        </div>
     </header>
 
     <main><!--conteúdo-->
@@ -100,10 +111,12 @@
 
             <!--menu de imagens-->
             <div id="quadroimages">
-                <a href="esporteVolei.html"><img  src="src/menuIMagens/voleibol.jpg" id="volei" class="menuImagens"></a>
-                <a href="esporteBasquete.html"><img src="src/menuIMagens/basquete.png" id="basquete" class="menuImagens"></a>
-                <a href="esporteFutebol.html"><img src="src/menuIMagens/futebol.png" id="futebol" class="menuImagens"></a>
-                <a href="esporteGinastica.html"><img src="src/menuIMagens/ginastica.png" id="ginastica" class="menuImagens"></a>
+                <div>
+                    <a class="imagem Menor" href="esporteVolei.html"><img  src="src/menuIMagens/voleibol.jpg" id="volei" class="menuImagens"></a>
+                    <a class="imagem Maior" href="esporteBasquete.html"><img src="src/menuIMagens/basquete.png" id="basquete" class="menuImagens"></a>
+                    <a class="imagem Maior" href="esporteFutebol.html"><img src="src/menuIMagens/futebol.png" id="futebol" class="menuImagens"></a> <!-- Cristiano de biscicleta minha nossa! -->
+                    <a class="imagem Menor" href="esporteGinastica.html"><img src="src/menuIMagens/ginastica.png" id="ginastica" class="menuImagens"></a>
+                <div>
             </div>
             <!--end menu de imagens-->
         </section> <!--end esportes-->

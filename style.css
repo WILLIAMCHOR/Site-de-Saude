@@ -19,10 +19,28 @@
 
 header h1.titulo {
     font-family: 'Krona One';
-    font-size: 4rem;
+    font-size: 6rem;
     color: white;
 }
-
+header .divHeader .pequenosDetalhes {
+    margin: 0.5vw 1vw;
+    display: flex;
+    align-items: center;
+}
+header .divHeader .pequenosDetalhes .bolinha {
+    width: 10px;
+    height: 10px;
+    margin: 3px;
+    background: white;
+    border-radius: 100%;
+}
+header .divHeader .pequenosDetalhes .linhazinha {
+    width: 150px;
+    height: 5px;
+    margin: 3px;
+    background: white;
+    border-radius: 10px;
+}
 html h2 {
     font-size: 3rem;
 }
@@ -98,15 +116,30 @@ section#inicio #alinhamento {
 #empimg p {
     margin: 0;
 }
-
 section#esportes #quadroimages {
-    padding: 5vw 13vw 15vw;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    padding: 5vw 0;
+    display: flex;
+    justify-content: center;
+}
+section#esportes #quadroimages div {
+    overflow: hidden;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    width: 1400px;
-    height: 600px;
+}
+section#esportes #quadroimages div .imagem {
+    transition: scale 0.2s;
+}
+section#esportes #quadroimages div .imagem.Menor {
+    width: calc(45% - 5px);
+}
+section#esportes #quadroimages div .imagem.Maior {
+    width: calc(55% - 5px);
+}
+section#esportes #quadroimages div .imagem:hover {
+    scale: 102.5%;
 }
 
 section#esportes p {
@@ -220,9 +253,7 @@ nav ul .tituloDoNav {
 /*-----------------------------------------
             formatação do corpo         
     --------------------------------------*/
-.indexFoto {
-    /* Recomendo usar essas configurações no resto das páginas */
-    background-image: url(src/banner/banner.rebecaandrade.jpeg);
+header {
     width: 100%;
     height: 49vw;
     padding-top: 1vw;
@@ -230,15 +261,20 @@ nav ul .tituloDoNav {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
+    align-items: end;
 }
-.indexFoto h1, .indexFoto h2 {
-    margin-left: 2vw;
+.indexPagina header {
+    /* Recomendo usar essas configurações no resto das páginas */
+    background-image: url(src/banner/banner.rebecaandrade.jpeg);
+    
 }
-.indexFoto h2 {
-    margin-bottom: 3vw;
+.indexPagina header .divHeader {
+    margin: 3vw 2vw;
 }
+
+
+
+
 
 /*-----------------------------------------
             formatação do rodapé       
