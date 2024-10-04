@@ -239,7 +239,35 @@ nav ul .tituloDoNav {
 .indexFoto h2 {
     margin-bottom: 3vw;
 }
+/*-----------------------------------------
+            formatação basket      
+    --------------------------------------*/
 
+    body.basquete header  {
+        width: 100%;
+        background-image: url(src/banner/banner.basquete.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 49vw;
+        display: flex;
+        align-items: end;
+
+    }
+    body.basquete header h1 {
+       color: white;
+       margin: 0 0 8vw 2vw ;
+       font-size: 4rem;
+       text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9) ;
+
+    }
+    body.basquete header img {
+        margin: 0vw 28vw 7vw 3vw ;
+        display: flex;
+        align-items: end;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
 /*-----------------------------------------
             formatação do rodapé       
     --------------------------------------*/
