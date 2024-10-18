@@ -249,8 +249,13 @@ nav.navegador ul details ul li {
 .index .esportes {
     margin: 0 10%;
 }
-.index img {
-    width: 300px;
+.index .quadroImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.index .quadroImages img {
+    width: 40%;
 }
 /*-----------------------------------------
             formatação basket      
