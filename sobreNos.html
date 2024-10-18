@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+=<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -6,17 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athletic Punk</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <nav class="navegador"> <!--menu-->
+    <nav id="nav"> <!--menu-->
         <ul class="navegador">
             <li>
                 <ul>
-                    <li class="botaoRedondo"><a href="index.html">Início</a></li>
+                    <li class="botaoRedondo"><a href="#inicio">Início</a></li>
                     <li>
                         <details>
                             <summary class="botaoRedondo">Esportes</summary>
@@ -39,78 +37,48 @@
             </li>
         </ul>
     </nav> <!-- end menu -->
-    <header>
-        <div class="escurecerImagemHeader">
-            <div class="divHeader">
-                <h1>Sobre Nós</h1>
-                <ul class="pequenosDetalhes">
-                    <li class="bolinha"></li>
-                    <li class="bolinha"></li>
-                    <li class="bolinha"></li>
-                    <li class="linhazinha"></li>
-                    <li class="bolinha"></li>
-                    <li class="bolinha"></li>
-                    <li class="bolinha"></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-        <nav> <!--menu-->
-            <ul>
-                <li><a href="index.html" class="esquerda">Início</a></li>
-                <li><a href="index.html#esportes" class="esquerda">Esportes</a>
-                    <ul>
-                        <li><a href="esporteBasquete.html">Basquete</a></li>
-                        <li><a href="esporteFutebol.html">Futebol</a></li>
-                        <li><a href="esporteGinastica.html">Ginástica Artística</a></li>
-                        <li><a href="esporteVolei.html">Voleibol</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Athletic Punk</h2>
-                </li>
-                <li><a href="sobreNos.html" class="direita">Sobre Nós</a></li>
-                <li><a href="contato.html" class="direita">Contato</a></li>
-            </ul>
-        </nav> <!--end menu-->
-        <h1>Athletic Punk</h1>
-        <h2>saúde nos esportes</h2>
-    </header>
+    
 
     <main><!--conteúdo-->
         <section id="sobreNos"> <!--sobre nós-->
-            <h2>Sobre nós</h2>
-            <p>O <strong>Athletic Punk</strong> é um projeto feito por 4 alunos do primero ano do Curso Técnico de
+            <h2 class="branco">Sobre nós</h2>
+            <img src="src/menuIMagens/sobrenos retangulo.png" alt="">
+            <p class="branco"> O Athletic Punk é um projeto feito por 4 alunos do primero ano do Curso Técnico de
                 Informática para Internet do IFC - Campus Araquari, com o objetivo de entregar e apresentar os nossos
                 conhecimentos obtidos no curso até o início do 3º trimestre.</p>
-            <p>Somos nós:</p>
+            <h3>Equipe:</h3>
             <ul>
-                <li><a href="https://github.com/FilipeBento19">Felipe Bento dos Santos</a>, 1INFO1</li>
-                <li><a href="https://github.com/higorifc">Higor Thiago Andresen de Braga</a>, 1INFO1</li>
-                <li><a href="https://github.com/nicolefemello">Nicole Ferreira Mello</a>, 1INFO1</li>
-                <li><a href="https://github.com/WILLIAMCHOR">William Chormiak</a>, 1INFO1</li>
+                <li id="equipe"><a href="https://github.com/FilipeBento19">Felipe Bento dos Santos</a></li>
+                <li id="equipe"><a href="https://github.com/higorifc">Higor Thiago Andresen de Braga</a></li>
+                <li id="equipe"><a href="https://github.com/nicolefemello">Nicole Ferreira Mello</a></li>
+                <li id="equipe"><a href="https://github.com/WILLIAMCHOR">William Chormiak</a></li>
+                <p>(Todos da 1INFO1)</p>
             </ul> <!--end sobre nós-->
 
             <h3>Missão:</h3> <!--missão-->
-            <p>Nossa missão é incentivar as pessoas a práticas esportivas e fazer dos esportes uma maneira mais
-                acessível para melhorar a saúde mental e física, proporcionando a melhora na qualidade de vida dos
-                demais. O
-                trabalho foi proposto pelo professor Mehran Misaghi, da discipina de Projeto Integrador, com o objetivo
-                de praticarmos e apresentarmos nossos conhecimentos obtidos até o fim do 2º trimestre do primero ano do
-                curso.</p>
-            <p>Buscamos a melhora na qualidade de vida das pessoas, ajudando e dando dicas para uma vida mais saudável.
-            </p> <!--end missão-->
+            <p>  Nossa missão é incentivar as pessoas a iniciação nas práticas esportivas e fazer dos esportes uma maneira mais acessível para melhorar a saúde mental e física, proporcionando a melhora na qualidade de vida dos demais. 
+            O trabalho foi proposto pelo professor Mehran Misaghi, da disciplina de Projeto Integrador, com o objetivo de praticarmos e apresentarmos nossos conhecimentos obtidos até o fim do 2º trimestre do primeiro ano do curso.
+            Buscamos a melhora na qualidade de vida das pessoas, ajudando e dando dicas para uma vida mais saudável.
+            </p>
+             <!--end missão-->
 
         </section><!--end sobre nós-->
+
+        <section id="obs"> <!-- observação sobre o nome -->
+            <h3>OBS:</h3>
+            <div>
+            <p>É necessário avisar que o nome “Atletic Punk” não se refere a qualquer tipo de movimento ou estilo de cultura.
+            Apenas escolhemos este nome pela refencia ao jogo CyberPunk.</p>
+            </div>
+            <div><img src="src/menuIMagens/cyberpunk photo.png" alt=""></div>
+        </section> <!-- end observação-->
 
     </main><!--end conteúdo-->
     <footer> <!--rodapé-->
         <p>Desenvolvido por:</p>
         <ul>
-            <li>Filipe Bento dos Santos</li>
+            <li>Felipe Bento dos Santos</li>
             <li>Higor Thiago Andresen de Braga</li>
-        </ul>
-        <ul>
             <li>Nicole Ferreira Mello</li>
             <li>William Chormiak</li>
         </ul>

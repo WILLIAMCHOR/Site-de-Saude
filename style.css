@@ -257,6 +257,44 @@ nav.navegador ul details ul li {
 .index .quadroImages img {
     width: 40%;
 }
+
+/*-----------------------------------------
+            formatação sobreNos.html      
+    --------------------------------------*/
+    
+    section#sobreNos {
+        padding: 3vw 15vw 0 15vw;
+    }
+    
+    section#sobreNos h2 {
+        font-size: 4.3rem;
+        margin: 2vw 0 0 0;
+    }
+    
+    section#sobreNos h3{
+        margin: 1vw 0 2vw 0;
+    }
+    
+    section#sobreNos p {
+        margin: 2vw 0 3vw;
+    }
+    
+    section#sobreNos #equipe{
+        list-style-type: disc;
+        color: white;
+        margin: 0 1.4vw 0 1.4vw;
+        font-size: 1.5rem;
+    }
+    
+    section#obs {
+        padding: 3vw 15vw 0 15vw;
+        background-color: #5B5A5A;
+    }
+    
+    section#obs h3 {
+        margin: 0 0 2vw 0
+    }
+    
 /*-----------------------------------------
             formatação basket      
     --------------------------------------*/
