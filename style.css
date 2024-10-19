@@ -373,3 +373,12 @@ section.introducao {
 .volei header  {
     background-image: url(src/volei/páginaVolei.jpg);
 }
+/*-----------------------------------------
+            formatação sobreNos      
+    --------------------------------------*/
+.sobreNos header {
+    height: 16vw;
+}
+.sobreNos header .divHeader {
+    margin-bottom: 2vw;
+}
