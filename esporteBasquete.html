@@ -56,49 +56,22 @@
         </div>
     </header>
     <main><!--conteúdo-->
-        <nav class="menu"> <!--menu-->
-            <ul> <!--menuBasquete-->
-                <!-- <li><a href="#introducao">Introdução</a>
-                    <ul> -->
-                        <li><a href="#">História</a></li>
-                        <li><a href="#">Regras básicas</a></li>
-                        <li><a href="#">Pontuação</a></li>
-                        <li><a href="#">Faltas</a></li>
-                        <li><a href="#">Fundamentos</a></li>
-                        <li><a href="#">Posições</a></li>
-                    <!-- </ul>
-                </li> -->
-            </ul> <!--end menuBasquete-->
-        </nav>
-        <section id="introducao"><!--introdução-->
+        <section class="introducao"><!--introdução-->
+            <nav class="subMenu"> <!--subMenu-->
+                <ul>
+                    <li id="historia" class="focado"><a onclick="conteudo('basquete', 'historia')">História</a></li>
+                    <li id="regrasBasicas" ><a onclick="conteudo('basquete', 'regrasBasicas')">Regras básicas</a></li>
+                    <li id="pontuacao" ><a onclick="conteudo('basquete', 'pontuacao')">Pontuação</a></li>
+                    <li id="faltas" ><a onclick="conteudo('basquete', 'faltas')">Faltas</a></li>
+                    <li id="fundamentos" ><a onclick="conteudo('basquete', 'fundamentos')">Fundamentos</a></li>
+                    <li id="posicoes" ><a onclick="conteudo('basquete', 'posicoes')">Posições</a></li>
+                </ul>
+            </nav> <!-- end subMenu -->
             <div class="container"> <!--container-->
-                <div class="buttons"> <!--buttons-->
-                    <button class="btn" content-id="historia">
-                        História
-                    </button>
-                    <button class="btn" content-id="regrasBasicas">
-                        Regras básicas
-                    </button>
-                    <button class="btn" content-id="pontuacao">
-                        Pontuação
-                    </button>
-                    <button class="btn" content-id="faltas">
-                        Faltas
-                    </button>
-                    <button class="btn" content-id="fundamentos">
-                        Fundamentos
-                    </button>
-                    <button class="btn" content-id="posicoes">
-                        Posições
-                    </button>
-                </div> <!--end buttons-->
 
                 <div class="conteudos"> <!--conteudos-->
 
-                    <div class="conteudo" id="historia"> <!--historia-->
-                        <img src="src/icons/basketball.png" class="img">
-
-                        <div class="info">
+                    <div class="conteudo visivel" id="historia"> <!--historia-->
                             <h2 class="title">História</h2>
                             <p class="descricao">O Basquete (ou Basquetebol), foi criado em 1881 pelo professor de
                                 educação física James W. Naismith, com
@@ -110,13 +83,9 @@
                                 nova atividade
                                 fosse facilmente adaptável, composta por exercícios completos e que não estimulasse a
                                 violência.</p>
-                        </div>
                     </div> <!--end historia-->
 
                     <div class="conteudo" id="regrasBasicas"> <!--regras básicas-->
-                        <img src="src/icons/rules.png" class="img">
-
-                        <div class="info">
                             <h2 class="title">Regras Básicas</h2>
                             <p class="descricao">O basquete é um esporte praticado por duas equipes de cinco jogadores
                                 em uma quadra retangular coberta.
@@ -141,13 +110,9 @@
                             As partidas geralmente duram quatro tempos de 10 minutos e o jogador só pode andar com a
                             bola quicando-a.
                             </p>
-                        </div>
                     </div> <!--end regras básicas-->
 
                     <div class="conteudo" id="pontuacao"> <!--pontuação-->
-                        <img src="src/icons/trophyb.png" class="img">
-
-                        <div class="info">
                             <h2 class="title">Pontuação</h2>
                             <p class="descricao">Há variação na pontuação de acordo com a situação de ataque, como:
                             <ul>
@@ -159,13 +124,9 @@
                                     conhecida como linha dos três.</li>
                             </ul>
                             </p>
-                        </div>
                     </div> <!--pontuação-->
 
                     <div class="conteudo" id="faltas"> <!--faltas-->
-                        <img src="src/icons/decline.png" class="img">
-
-                        <div class="info">
                             <h2 class="title">Faltas</h2>
                             <p class="descricao">No basquete, são consideradas faltas nas seguintes situações:
                             <ol>
@@ -178,12 +139,8 @@
                             </ol>
                             </p>
                         </div>
-                    </div> <!--end faltas-->
 
                     <div class="conteudo" id="fundamentos"> <!--fundamentos-->
-                        <img src="src/icons/basketball (1).png" class="img">
-
-                        <div class="info">
                             <h2 class="title">Fundamentos</h2>
                             <p class="descricao">O basquete é composto por cinco fundamentos essenciais em sua partida.
                                 São eles:
@@ -228,13 +185,9 @@
                                     a equipe atinge o limite de cinco faltas por bloco de tempo do jogo.</li>
                             </ul>
                             </p>
-                        </div>
                     </div><!--end fundamentos-->
 
                     <div class="conteudo" id="posicoes"> <!--posições-->
-                        <img src="src/icons/substitute-player.png" class="img">
-
-                        <div class="info">
                             <h2 class="title">Posições e suas funções</h2>
                             <p class="descricao">Os jogadores da equipe possuem posições e funções definidas para a
                                 partida. Confira as características de
@@ -264,11 +217,11 @@
                                     defesa, ele busca bloquear os arremessos e pegar os rebotes.</li>
                             </ul>
                             </p>
-                        </div>
+
                     </div> <!--end posições-->
                 </div> <!--conteudos-->
-            </div> <!--end container→
-        </section><!--end introdução-->
+            </div> <!--end container→ -->
+        </section> <!--end introdução-->
         <section id="beneficios"> <!--benefícios-->
             <h2>Benefícios</h2>
             <p>Segundo a Doutora Paola Machado (profissional em educação física e doutora em ciências da saúde pela
@@ -404,5 +357,5 @@
         </ul>
     </footer><!--end rodapé-->
 </body>
-
+<script src="script.js"></script>
 </html>

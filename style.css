@@ -15,6 +15,9 @@
 /*-----------------------------------------
             formatação geral      
     --------------------------------------*/
+body {
+    background: #727272;
+}
 h2 {
     font-size: 2.5rem;
     text-align: center;
@@ -85,9 +88,6 @@ header .divHeader .pequenosDetalhes .linhazinha {
 }
 
     /* MAIN */ 
-main {
-    background: #727272;
-}
 main h2 {
     padding-bottom: 2vw;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
@@ -138,14 +138,15 @@ footer ul li {
     border-bottom: 2px solid;
 }
 /*-----------------------------------------
-            formatação do topo          
+            formatação do menu          
     ---------------------------------------*/
 nav.navegador {
     /* Posicionando o NAV */
+    position: fixed;
     top: 0;
     left: 0;
-    position: fixed;
     width: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 nav.navegador ul {
@@ -155,10 +156,9 @@ nav.navegador ul {
     align-items: center;
 }
 
-nav.navegador .navegador {
+nav.navegador .ulGrande {
     position: relative;
     padding: 10px 0 10px 0;
-    background: rgba(0, 0, 0, 0.5);
 }
 
 nav.navegador a {
@@ -213,24 +213,43 @@ nav.navegador ul details ul li {
     opacity: 0.8;
 }
 /*-----------------------------------------
-            formatação do menu    
+            formatação do introdução  
     --------------------------------------*/
-.menu {
-    width: 90%;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 10px 5% 15px 5%;
+section.introducao {
+    margin: 2vw 5%; 
+    padding: 0 2vw 2vw 2vw;
+    border-radius: 5px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
 }
-.menu a {
+.conteudos .conteudo {
+    visibility: hidden;
+    position: absolute;
+}
+.conteudos .conteudo.visivel {
+    visibility: visible;
+    position: static;
+}
+    
+/*-----------------------------------------
+            formatação do subMenu    
+    --------------------------------------*/
+.subMenu {
+    width: 90%;
+    padding: 5px 5%;
+}
+.subMenu a {
+    font-size: 0.85rem;
     text-decoration: none;
     color: black;
 }
-.menu ul {
+.subMenu ul {
     display: flex;
     align-items: end;
     justify-content: center;
 }
-.menu ul li {
-    margin: 10px 10px 5px 10px;
+.subMenu ul li {
+    margin: 5px 10px 5px 10px;
     padding: 5px 10px 5px 10px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
@@ -241,15 +260,19 @@ nav.navegador ul details ul li {
     box-shadow 0.3s
     ;
 }
-.menu ul li:hover {
-    background: rgba(255, 255, 255, 0.7);
-    margin: 5px 10px 10px 10px;
+.subMenu ul li:hover {
+    background: rgba(255, 255, 255, 0.45);
+    margin: 0 10px 10px 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-.menu li:active {
+.subMenu li:active {
     opacity: 0.5;
 }
-
+.subMenu li.focado {
+    background: rgba(255, 255, 255, 0.7);
+    margin: 0 10px 10px 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -344,7 +367,9 @@ nav.navegador ul details ul li {
 .basquete header  {
     background-image: url(src/banner/banner.basquete.jpg);
 }
-
 /*-----------------------------------------
-            formatação do rodapé       
+            formatação volei      
     --------------------------------------*/
+.volei header  {
+    background-image: url(src/volei/páginaVolei.jpg);
+}
