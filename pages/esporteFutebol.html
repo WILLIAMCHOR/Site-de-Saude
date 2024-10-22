@@ -1,16 +1,205 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Athletic Punk</title>
-        <link rel="stylesheet" href="/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Punk</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+
 <body class="futebol">
-    
+    <nav class="navegador"> <!--menu-->
+        <ul class="navegador">
+            <li>
+                <ul>
+                    <li class="botaoRedondo"><a href="../index.html">Início</a></li>
+                    <li>
+                        <details>
+                            <summary class="botaoRedondo">Esportes</summary>
+                            <ul>
+                                <li><a href="esporteBasquete.html">Basquete</a></li>
+                                <li><a href="esporteFutebol.html">Futebol</a></li>
+                                <li><a href="esporteGinastica.html">Ginástica</a></li>
+                                <li><a href="esporteVolei.html">Voleibol</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </li>
+            <li class="tituloDoNav">Athletic Punk</li>
+            <li>
+                <ul>
+                    <li class="botaoRedondo"><a href="sobreNos.html">Sobre Nós</a></li>
+                    <li class="botaoRedondo"><a href="contato.html">Contato</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav> <!-- end menu -->
+    <header>
+        <div class="escurecerImagemHeader">
+            <div class="divHeader">
+                <h1>Futebol</h1>
+                <ul class="pequenosDetalhes">
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="linhazinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main> <!--conteúdo-->
+        <section class="introducao"> <!--introdução-->
+            <nav class="subMenu"> <!--subMenu-->
+                <ul>
+                    <li id="historia" class="focado"><a onclick="conteudo('futebol', 'historia')">História</a></li>
+                    <li id="regrasBasicas"><a onclick="conteudo('futebol', 'regrasBasicas')">Regras básicas</a></li>
+                    <li id="pontuacao"><a onclick="conteudo('futebol', 'pontuacao')">Pontuação</a></li>
+                    <li id="faltas"><a onclick="conteudo('futebol', 'faltas')">Faltas</a></li>
+                    <li id="fundamentos"><a onclick="conteudo('futebol', 'fundamentos')">Fundamentos</a></li>
+                    <li id="posicoes"><a onclick="conteudo('futebol', 'posicoes')">Posições</a></li>
+                </ul>
+            </nav> <!-- end subMenu -->
+            <div class="conteudos"> <!--conteudos-->
+
+                <div class="conteudo visivel" id="historia"> <!--historia-->
+                    <h2 class="title">História</h2>
+                    <p class="descricao">Embora o futebol tenha raízes não só na China antiga, mas também há
+                        indícios de práticas esportivas pelos gregos, romanos e até os egípcios, a versão moderna do
+                        esporte nasceu pelas ruas da Inglaterra. Hoje é o esporte mais popular do mundo, e começou
+                        com pessoas que tentavam arrastar uma bexiga de porco com marcadores pelas extremidades
+                        opostas na cidade. Os eventos eram bastante conhecidos por serem violentos e populares. No
+                        século XVI, as escolas inglesas estabeleceram as regras do futebol moderno, transformando
+                        assim o Futebol em um esporte padronizado.</p>
+                </div> <!--end historia-->
+
+                <div class="conteudo" id="regrasBasicas"> <!--regras básicas-->
+                    <h2 class="title">Regras Básicas</h2>
+                    <p class="descricao">As competições são organizadas em duas equipes de 11 jogadores que disputam
+                        uma partida de 90 minutos (mais os acréscimos) dividida em dois tempos de 45 minutos em um
+                        gramado de 105m de comprimento por 68m de largura. O objetivo dos jogadores na partida são:
+                    <ul>
+                        <li><strong>Ataque</strong>: Marcar o máximo de gols possíveis;</li>
+                        <li><strong>Defesa</strong>: Proteger ao máximo o seu gol, não deixando o adversário marcar
+                            seu gol.</li>
+                    </ul>
+                    O esporte é jogado com o corpo, com exceção dos braços e mãos, somente o goleiro pode usar as
+                    mãos durante a partida.
+                    </p>
+                </div> <!--end regras básicas-->
+
+                <div class="conteudo" id="pontuacao"> <!--pontuação-->
+                    <h2 class="title">Pontuação</h2>
+                    <p class="descricao">Um gol é marcado quando a bola passa completamente a linha de fundo entre
+                        as traves, desde que a equipe não tenha cometido nenhuma infração.</p>
+                </div> <!--pontuação-->
+
+                <div class="conteudo" id="faltas"> <!--faltas-->
+                    <h2 class="title">Faltas</h2>
+                    <p class="descricao">Jogadas violentas podem ser punidas com cartões, sendo eles:
+                    <ol>
+                        <li><strong>Amarelo:</strong>: como advertência ao jogador, apenas um aviso para tomar
+                            cuidado para não ser expulso;</li>
+                        <li><strong>Vermelho</strong>: como expulsão do jogador, caso o jogador receber um cartão
+                            vermelho ele é expulso da partida. </li>
+                    </ol>
+                    As faltas cometidas dentro da área são punidas com a marcação de pênalti (fica a 11 metros do
+                    gol).
+                    </p>
+                </div> <!--end faltas-->
+
+                <div class="conteudo" id="fundamentos"> <!--fundamentos-->
+                    <h2 class="title">Fundamentos</h2>
+                    <p class="descricao">São fundamentos os:
+                    <ul>
+                        <li><strong>Chute</strong>: Golpear a bola com os pés. Há alguns tipos de chutes:
+                            <ol>
+                                <li>Trivela;</li>
+                                <li>Bico;</li>
+                                <li>Calcanhar;</li>
+                                <li>Letra.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Passe</strong>: Transferir a bola de um jogador para o outro, permitindo a criação
+                            de jogadas;
+                        </li>
+                        <li><strong>Drible</strong>: Driblar, confundir o adversário para se livrar da marcação. Dentre
+                            os dribles, podemos destacar:
+                            <ol>
+                                <li>Meia-lua;</li>
+                                <li>Chapéu;</li>
+                                <li>Lençol;</li>
+                                <li>Elástico;</li>
+                                <li>Corte;</li>
+                                <li>Letra;</li>
+                                <li>Pedalada;</li>
+                                <li>Carretilha.</li>
+                            </ol>
+                        </li>
+                        <li><strong>Domínio</strong>: Amortecer e manter o controle da bola ao recebê-la;</li>
+                        <li><strong>Desarme</strong>: O toque do adversário que muda a posse de bola;</li>
+                        <li><strong>Condução de bola</strong>: Conduzir a bola ao longo do campo para a realização de
+                            uma ação, e é feita somente com os pés.
+                        </li>
+                    </ul>
+                    </p>
+                </div><!--end fundamentos-->
+
+                <div class="conteudo" id="posicoes"> <!--posições-->
+                    <h2 class="title">Posições e suas funções</h2>
+                    <p class="descricao">Os jogadores da equipe são distribuídos da seguinte forma: <br>
+                        <strong>Goleiro</strong>: Defende o gol do adversário e é o único que pode usar os braços e mãos
+                        para defender; <br>
+                        <strong>Lateral direito e esquerdo</strong>: Defendem as laterais do campo na defesa, bloqueando
+                        os atacantes; <br>
+                        <strong>Zagueiros</strong>: Defesa do centro do campo, evitando que os adversário com a bola
+                        chegue perto do seu goleiro; <br>
+                        <strong>Volante</strong>: Se concentra em recuperar a bola do fundo de campo enquanto prepara a
+                        bola para os atacantes; <br>
+                        <strong>Meio-campista direito e esquerdo</strong>: Meio-campista direito e esquerdo:Jogam nas
+                        bordas do campo,abrindo espaço para armador e os atacantes seguirem; <br>
+                        <strong>Armador</strong>: Atua na defesa e no ataque, conforme o jogo vão recuando ou subindo
+                        para armar as jogadas;<br>
+                        <strong>Meio-campista ofensivo ou meia-atacante</strong>: cruzam e auxiliam os atacantes no
+                        ataque;<br>
+                        <strong>Centroavante</strong>: Sua principal função é atacar e marcar a maior quantidade de gols que conseguir;
+
+                    </p>
+                </div> <!--end posições-->
+            </div> <!--conteudos-->
+            </div> <!--end container-->
+        </section> <!--end introdução-->
+
+        <section id="beneficios"> <!--benefícios-->
+
+        </section> <!--end benefícios-->
+
+        <section id="comecarEFrequencia"> <!--começar e frequência-->
+
+        </section> <!--começar e frequência-->
+
+    </main> <!--end conteúdo-->
+
+    <footer> <!--rodapé-->
+        <p>&copy;2024 Direitos reservados</p>
+        <p>Desenvolvido por: </p>
+        <ul>
+            <li>Filipe Bento dos Santos</li>
+            <li>Higor Thiago Andresen de Braga</li>
+        </ul>
+        <ul>
+            <li>Nicole Ferreira Mello</li>
+            <li>William Chormiak</li>
+        </ul>
+    </footer> <!--end rodapé-->
 </body>
 <script src="/script.js"></script>
+
 </html>

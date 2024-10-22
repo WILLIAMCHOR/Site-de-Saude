@@ -1,16 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Athletic Punk</title>
-        <link rel="stylesheet" href="/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Punk</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+</head>
+
 <body class="ginastica">
-    
+    <nav class="navegador"> <!--menu-->
+        <ul class="navegador">
+            <li>
+                <ul>
+                    <li class="botaoRedondo"><a href="../index.html">Início</a></li>
+                    <li>
+                        <details>
+                            <summary class="botaoRedondo">Esportes</summary>
+                            <ul>
+                                <li><a href="esporteBasquete.html">Basquete</a></li>
+                                <li><a href="esporteFutebol.html">Futebol</a></li>
+                                <li><a href="esporteGinastica.html">Ginástica</a></li>
+                                <li><a href="esporteVolei.html">Voleibol</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                </ul>
+            </li>
+            <li class="tituloDoNav">Athletic Punk</li>
+            <li>
+                <ul>
+                    <li class="botaoRedondo"><a href="sobreNos.html">Sobre Nós</a></li>
+                    <li class="botaoRedondo"><a href="contato.html">Contato</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav> <!-- end menu -->
+    <header>
+        <div class="escurecerImagemHeader">
+            <div class="divHeader">
+                <h1>Ginástica Artística</h1>
+                <ul class="pequenosDetalhes">
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="linhazinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                    <li class="bolinha"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main> <!--conteúdo-->
+        <section class="introducao"> <!--introdução-->
+            <nav class="subMenu"> <!--subMenu-->
+                <ul>
+                    <li id="historia" class="focado"><a onclick="conteudo('ginastica', 'historia')">História</a></li>
+                    <li id="regrasBasicas"><a onclick="conteudo('ginastica', 'regrasBasicas')">Regras básicas</a></li>
+                    <li id="pontuacao"><a onclick="conteudo('ginastica', 'pontuacao')">Pontuação</a></li>
+                    <li id="faltas"><a onclick="conteudo('ginastica', 'faltas')">Faltas</a></li>
+                    <li id="fundamentos"><a onclick="conteudo('ginastica', 'fundamentos')">Fundamentos</a></li>
+                    <li id="aparelhos"><a onclick="conteudo('ginastica', 'aparelhos')">Aparelhos</a></li>
+                </ul>
+            </nav> <!-- end subMenu -->
+            <div class="conteudos"> <!--conteudos-->
+
+                <div class="conteudo visivel" id="historia"> <!--historia-->
+                    <h2 class="title">História</h2>
+                    <p class="descricao">Enquanto forma de prática física, a ginástica surgiu na Pré-História.
+                        Acredita-se que os gregos praticavam diversos movimentos e acrobacias em alguns aparelhos com o
+                        intuito de atingir a perfeição física, além disso, a ginástica grega era utilizada como uma
+                        forma de preparar o corpo tanto para a prática de outros esportes como para o treinamento
+                        militar. Contudo, veio a se tornar uma modalidade esportiva apenas em 1881,com o pedagogo alemão
+                        Friedrich Ludwig Christoph Jahn (1778-1852), em escolas alemãs tipicamente masculinas. Desse
+                        modo, a ginástica artística consagrou-se como a forma mais antiga do desporto.</p>
+                </div> <!--end historia-->
+
+                <div class="conteudo" id="regrasBasicas"> <!--regras básicas-->
+                    <h2 class="title">Regras Básicas</h2>
+                    <p class="descricao">A ginástica artística é composta por uma série de competições individuais em
+                        diferentes aparelhos, além de um torneio por equipes envolvendo todos os aparelhos específicos
+                        de cada gênero. Cada elemento requer habilidades diferentes. Os homens competem nos exercícios
+                        de solo, cavalo com alças, argolas, salto, barras paralelas e barra fixa, enquanto os eventos
+                        femininos incluem salto, barras assimétricas, trave de equilíbrio e exercícios de solo. Cada
+                        elemento de competição da ginástica exige força, agilidade, coordenação e precisão.
+                    <p>As regras da ginástica artística são estabelecidas de acordo com a categoria de competição. Mas
+                        em geral as regras na ginástica artística são:</p>
+                    <ol>
+                        <li>Realização de fundamentos durante a competição;</li>
+                        <li>Tempo de duração das apresentações;</li>
+                        <li>Contato das mãos nos aparelhos;</li>
+                        <li>Área determinada para a performance;</li>
+                        <li>Execução de movimentos limpos que prezam pela movimentação correta;</li>
+                        <li>Precisão nos saltos e aterrissagens.</li>
+                    </ol>
+                    </p>
+                </div> <!--end regras básicas-->
+
+                <div class="conteudo" id="pontuacao"> <!--pontuação-->
+                    <h2 class="title">Pontuação</h2>
+                    <p class="descricao">A ginástica artística é um esporte que exige força, flexibilidade, coordenação,
+                        equilíbrio e elegância. Os juízes atribuem uma nota para o grau de dificuldade e outra nota de
+                        acordo com a execução de cada movimento. A pontuação diminui se os ginastas cometem erros, como
+                        desequilíbrio na hora de cravar o salto no solo. Além disso, os atletas perdem pontos se não
+                        executarem algum movimento obrigatório em cada aparelho. Os atletas são avaliados por juízes em
+                        dois critérios principais: a dificuldade da série (nota A) e a execução dos movimentos (nota B).
+                    </p>
+                </div> <!--pontuação-->
+
+                <div class="conteudo" id="faltas"> <!--faltas-->
+                    <h2 class="title">Faltas</h2>
+                    <p class="descricao">Existem faltas na ginástica artística que podem resultar em dedução de pontos:
+                    <ol>
+                        <li>Giro incompleto (mais de ¼): dedução de 0,50 pontos;</li>
+                        <li>Apresentação artística insuficiente;</li>
+                        <li>Composição incorreta de movimentos para a música;</li>
+                    </ol>
+                    Os ginastas perdem pontos por erros técnicos e artísticos durante os exercícios. A nota final é a
+                    soma da pontuação de dificuldade (PD) e da pontuação de execução (PE).
+                    </p>
+                </div> <!--end faltas-->
+
+                <div class="conteudo" id="fundamentos"> <!--fundamentos-->
+                    <h2 class="title">Fundamentos</h2>
+                    <p class="descricao">São fundamentos:
+                    <ul>
+                        <li><strong>Aterrissagem</strong>: momento em que o atleta toca no solo após uma fase de voo;
+                        </li>
+                        <li><strong>Deslocamento</strong>: é a diferença entre a posição de duas marcas,
+                            independentemente do caminho percorrido entre elas. A distância percorrida, por sua vez, é o
+                            comprimento total do caminho entre as marcas;</li>
+                        <li><strong>Posições estáticas</strong>: são as variações de movimentos em diferentes tipos de
+                            apoio, suspensão e equilíbrio;</li>
+                        <li><strong>Rotações</strong>: Nas competições, as rotações são divididas em quatro fases:
+                            rotação 1, 2, 3 e 4. Em cada rotação, uma ginasta da equipe se apresenta no solo, outra na
+                            mesa, outra na trave e outra nas paralelas.</li>
+                        <li><strong>Saltos</strong>: são realizados em diferentes aparelhos, como no solo: Os ginastas
+                            realizam saltos, giros, passos e movimentos acrobáticos em uma quadra de 12 metros
+                            de cada lado; e na mesa de salto: Os atletas correm e saltam sobre um trampolim para ganhar
+                            impulso e fazer acrobacias sobre uma mesa de salto. <br>
+                            Alguns saltos básicos da ginástica artística são:
+                            <ol>
+                                <li><strong>Grupado</strong>: O saltador coloca o peito perto das pernas, que ficam
+                                    flexionadas;</li>
+                                <li><strong>Carpado</strong>: O quadril fica flexionado (dobrado), e as pernas são
+                                    estendidas;</li>
+                                <li><strong>Estendido</strong>: Estendido: O corpo do atleta fica todo estendido, mas as
+                                    costas podem fazer um "arco".</li>
+                            </ol>
+                        </li>
+                        <li><strong>Balanços</strong>: os balanços são executados em aparelhos como a barra fixa, o
+                            cavalo com alças e as argolas:
+                            <ul>
+                                <li><strong>Barra fixa</strong>: Os ginastas executam movimentos de balanço e rotações
+                                    em uma barra elevada;</li>
+                                <li><strong>Cavalo com alças</strong>: Os ginastas executam uma série de movimentos de
+                                    balanço e circulares sobre um "cavalo" cOs praticantes realizam movimentos que exigem força, balanço e equilíbrio.om duas alças;</li>
+                                <li><strong>Argolas</strong>: Os praticantes realizam movimentos que exigem força,
+                                    balanço e equilíbrio.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </p>
+                </div><!--end fundamentos-->
+                <div class="conteudo" id="aparelhos"> <!--aparelhos-->
+                    <h2 class="title">Aparelhos</h2>
+                    <p class="descricao">Há os aparelhos de ginástica artística feminina e masculina. São eles: <br>
+                        <strong>Masculino:</strong>
+                        <ul>
+                            <li>Barra fixa;</li>
+                            <li>Barras paralelas;</li>
+                            <li>Cavalo com alças;</li>
+                            <li>Salto sobre o cavalo;</li>
+                            <li>Argolas;</li>
+                            <li>Solo</li>
+                        </ul>
+                        <strong>Feminino:</strong>
+                        <ul>
+                            <li>Solo;</li>
+                            <li>Salto sobre o cavalo;</li>
+                            <li>Barras assimétricas;</li>
+                            <li>Trave de equilíbrio.</li>
+                        </ul>
+                    </p>
+                </div> <!--end aparelhos-->
+            </div> <!--conteudos-->
+            </div> <!--end container-->
+        </section> <!--end introdução-->
+
+        <section id="beneficios"> <!--benefícios-->
+
+        </section> <!--end benefícios-->
+
+        <section id="comecarEFrequencia"> <!--começar e frequência-->
+
+        </section> <!--começar e frequência-->
+
+    </main> <!--end conteúdo-->
+
+    <footer> <!--rodapé-->
+        <p>&copy;2024 Direitos reservados</p>
+        <p>Desenvolvido por: </p>
+        <ul>
+            <li>Filipe Bento dos Santos</li>
+            <li>Higor Thiago Andresen de Braga</li>
+        </ul>
+        <ul>
+            <li>Nicole Ferreira Mello</li>
+            <li>William Chormiak</li>
+        </ul>
+    </footer> <!--end rodapé-->
 </body>
 <script src="/script.js"></script>
+
 </html>
