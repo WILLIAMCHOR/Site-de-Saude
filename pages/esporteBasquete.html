@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athletic Punk</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
@@ -60,11 +61,11 @@
             <nav class="subMenu"> <!--subMenu-->
                 <ul>
                     <li id="historia" class="focado"><a onclick="conteudo('basquete', 'historia')">História</a></li>
-                    <li id="regrasBasicas" ><a onclick="conteudo('basquete', 'regrasBasicas')">Regras básicas</a></li>
-                    <li id="pontuacao" ><a onclick="conteudo('basquete', 'pontuacao')">Pontuação</a></li>
-                    <li id="faltas" ><a onclick="conteudo('basquete', 'faltas')">Faltas</a></li>
-                    <li id="fundamentos" ><a onclick="conteudo('basquete', 'fundamentos')">Fundamentos</a></li>
-                    <li id="posicoes" ><a onclick="conteudo('basquete', 'posicoes')">Posições</a></li>
+                    <li id="regrasBasicas"><a onclick="conteudo('basquete', 'regrasBasicas')">Regras básicas</a></li>
+                    <li id="pontuacao"><a onclick="conteudo('basquete', 'pontuacao')">Pontuação</a></li>
+                    <li id="faltas"><a onclick="conteudo('basquete', 'faltas')">Faltas</a></li>
+                    <li id="fundamentos"><a onclick="conteudo('basquete', 'fundamentos')">Fundamentos</a></li>
+                    <li id="posicoes"><a onclick="conteudo('basquete', 'posicoes')">Posições</a></li>
                 </ul>
             </nav> <!-- end subMenu -->
             <div class="container"> <!--container-->
@@ -72,219 +73,250 @@
                 <div class="conteudos"> <!--conteudos-->
 
                     <div class="conteudo visivel" id="historia"> <!--historia-->
-                            <h2 class="title">História</h2>
-                            <p class="descricao">O Basquete (ou Basquetebol), foi criado em 1881 pelo professor de
-                                educação física James W. Naismith, com
-                                o intuito de manter seus alunos em forma no inverno rigoroso dos Estados Unidos.
-                                Naismith foi convidado
-                                para ajudar no desenvolvimento de um jogo que pudesse ser praticado durante o inverno,
-                                em local fechado,
-                                já que o frio intenso impedia os jovens de jogarem ao ar livre. A intenção era que a
-                                nova atividade
-                                fosse facilmente adaptável, composta por exercícios completos e que não estimulasse a
-                                violência.</p>
+                        <h2 class="title">História</h2>
+                        <p class="descricao">O Basquete (ou Basquetebol), foi criado em 1881 pelo professor de
+                            educação física James W. Naismith, com
+                            o intuito de manter seus alunos em forma no inverno rigoroso dos Estados Unidos.
+                            Naismith foi convidado
+                            para ajudar no desenvolvimento de um jogo que pudesse ser praticado durante o inverno,
+                            em local fechado,
+                            já que o frio intenso impedia os jovens de jogarem ao ar livre. A intenção era que a
+                            nova atividade
+                            fosse facilmente adaptável, composta por exercícios completos e que não estimulasse a
+                            violência.</p>
                     </div> <!--end historia-->
 
                     <div class="conteudo" id="regrasBasicas"> <!--regras básicas-->
-                            <h2 class="title">Regras Básicas</h2>
-                            <p class="descricao">O basquete é um esporte praticado por duas equipes de cinco jogadores
-                                em uma quadra retangular coberta.
-                                Os objetivos são:
-                            <ul>
-                                <li><strong>Ataque</strong>: arremessar e acertar a bola na cesta do time adversário o
-                                    maior número
-                                    de vezes possível ao longo da partida.</li>
-                                <li><strong>Defesa</strong>: bloquear a equipe oponente para que não realize o ataque.
-                                </li>
-                            </ul>
-                            As medidas da quadra de basquete têm as dimensões de 28 metros de comprimento por 15 metros
-                            de largura.
-                            Na quadra, as cestas devem ficar fixadas em estruturas a 3,05 metros de distância do chão e
-                            localizadas
-                            nas extremidades.
-                            Os atletas usam as mãos para controlar a bola e marcar pontos, lançando a bola até um aro
-                            suspenso a
-                            3,05m do chão. As equipes se alternam entre ataque e defesa e devem demonstrar resistência,
-                            agilidade,
-                            força e, claro, muita habilidade em quadra.
-                            As partidas geralmente duram quatro tempos de 10 minutos e o jogador só pode andar com a
-                            bola quicando-a.
-                            </p>
+                        <h2 class="title">Regras Básicas</h2>
+                        <p class="descricao">O basquete é um esporte praticado por duas equipes de cinco jogadores
+                            em uma quadra retangular coberta.
+                            Os objetivos são:
+                        <ul>
+                            <li><strong>Ataque</strong>: arremessar e acertar a bola na cesta do time adversário o
+                                maior número
+                                de vezes possível ao longo da partida.</li>
+                            <li><strong>Defesa</strong>: bloquear a equipe oponente para que não realize o ataque.
+                            </li>
+                        </ul>
+                        As medidas da quadra de basquete têm as dimensões de 28 metros de comprimento por 15 metros
+                        de largura.
+                        Na quadra, as cestas devem ficar fixadas em estruturas a 3,05 metros de distância do chão e
+                        localizadas
+                        nas extremidades.
+                        Os atletas usam as mãos para controlar a bola e marcar pontos, lançando a bola até um aro
+                        suspenso a
+                        3,05m do chão. As equipes se alternam entre ataque e defesa e devem demonstrar resistência,
+                        agilidade,
+                        força e, claro, muita habilidade em quadra.
+                        As partidas geralmente duram quatro tempos de 10 minutos e o jogador só pode andar com a
+                        bola quicando-a.
+                        </p>
                     </div> <!--end regras básicas-->
 
                     <div class="conteudo" id="pontuacao"> <!--pontuação-->
-                            <h2 class="title">Pontuação</h2>
-                            <p class="descricao">Há variação na pontuação de acordo com a situação de ataque, como:
-                            <ul>
-                                <li><strong>1 ponto</strong>: arremessos feitos em situação de lance livre;</li>
-                                <li><strong>2 pontos</strong>: cestas em condições normais de jogo;</p>
-                                </li>
-                                <li><strong>3 pontos</strong>: arremesso executado antes da linha situada a 6,2 metros
-                                    da cesta,
-                                    conhecida como linha dos três.</li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Pontuação</h2>
+                        <p class="descricao">Há variação na pontuação de acordo com a situação de ataque, como:
+                        <ul>
+                            <li><strong>1 ponto</strong>: arremessos feitos em situação de lance livre;</li>
+                            <li><strong>2 pontos</strong>: cestas em condições normais de jogo;</p>
+                            </li>
+                            <li><strong>3 pontos</strong>: arremesso executado antes da linha situada a 6,2 metros
+                                da cesta,
+                                conhecida como linha dos três.</li>
+                        </ul>
+                        </p>
                     </div> <!--pontuação-->
 
                     <div class="conteudo" id="faltas"> <!--faltas-->
-                            <h2 class="title">Faltas</h2>
-                            <p class="descricao">No basquete, são consideradas faltas nas seguintes situações:
-                            <ol>
-                                <li>O jogador dar mais de dois passos sem quicar a bola;</li>
-                                <li>O jogador segurar a bola por mais de cinco segundos sem arremessá-la, seja para a
-                                    cesta, seja
-                                    para outro jogador de sua equipe;</li>
-                                <li>O jogador ficar mais de três segundos dentro do garrafão;</li>
-                                <li>Tocar no braço e na mão de quem estiver com a bola.</li>
-                            </ol>
-                            </p>
-                        </div>
+                        <h2 class="title">Faltas</h2>
+                        <p class="descricao">No basquete, são consideradas faltas nas seguintes situações:
+                        <ol>
+                            <li>O jogador dar mais de dois passos sem quicar a bola;</li>
+                            <li>O jogador segurar a bola por mais de cinco segundos sem arremessá-la, seja para a
+                                cesta, seja
+                                para outro jogador de sua equipe;</li>
+                            <li>O jogador ficar mais de três segundos dentro do garrafão;</li>
+                            <li>Tocar no braço e na mão de quem estiver com a bola.</li>
+                        </ol>
+                        </p>
+                    </div>
 
                     <div class="conteudo" id="fundamentos"> <!--fundamentos-->
-                            <h2 class="title">Fundamentos</h2>
-                            <p class="descricao">O basquete é composto por cinco fundamentos essenciais em sua partida.
-                                São eles:
-                            <ul>
-                                <li><strong>Passe</strong>: lançamento da bola para outro jogador da mesma equipe. O
-                                    passe pode
-                                    ser realizado das seguintes formas:
-                                    <ol>
-                                        <li>de peito, ao empurrar a bola com as duas mãos;</li>
-                                        <li>com uma das mãos;</li>
-                                        <li>passe quicado;</li>
-                                        <li>por cima do ombro;</li>
-                                        <li>por cima da cabeça.</li>
-                                    </ol>
-                                </li>
-                                <li><strong>Drible</strong>: jogada em que a bola é quicada no chão com o objetivo de
-                                    ultrapassar
-                                    o adversário e chegar mais próximo à cesta ou buscar uma melhor posição tática para
-                                    a
-                                    equipe. É necessário uma boa coordenação motora dos membros superiores.</li>
-                                <li><strong>Arremesso</strong>: fundamento primordial no basquete, o lançamento é a
-                                    jogada em que
-                                    o atleta arremessa a bola em direção à cesta com o objetivo de pontuar. Entre os
-                                    tipos de
-                                    arremesso, estão:
-                                    <ol>
-                                        <li><strong>Bandeja</strong>: quando o jogador arremessa a bola na tabela para
-                                            cair
-                                            dentro da cesta;</li>
-                                        <li><strong>Gancho</strong>: quando, perto da tabela, o atleta projeta a bola
-                                            com o seu
-                                            corpo e arremessa utilizando uma das mãos.</li>
-                                    </ol>
-                                </li>
-                                <li><strong>Rebote</strong>: quando o jogador pega a bola depois que outro jogador erra
-                                    o
-                                    arremesso. O rebote pode ser de ataque ou defesa. É fundamental estar preparado para
-                                    os
-                                    rebotes, já que pode ser uma situação de jogo decisiva para um contra-ataque.</li>
-                                <li><strong>Lance livre</strong>: arremesso sem a marcação que acontece após uma falta
-                                    ou quando
-                                    a equipe atinge o limite de cinco faltas por bloco de tempo do jogo.</li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Fundamentos</h2>
+                        <p class="descricao">O basquete é composto por cinco fundamentos essenciais em sua partida.
+                            São eles:
+                        <ul>
+                            <li><strong>Passe</strong>: lançamento da bola para outro jogador da mesma equipe. O
+                                passe pode
+                                ser realizado das seguintes formas:
+                                <ol>
+                                    <li>de peito, ao empurrar a bola com as duas mãos;</li>
+                                    <li>com uma das mãos;</li>
+                                    <li>passe quicado;</li>
+                                    <li>por cima do ombro;</li>
+                                    <li>por cima da cabeça.</li>
+                                </ol>
+                            </li>
+                            <li><strong>Drible</strong>: jogada em que a bola é quicada no chão com o objetivo de
+                                ultrapassar
+                                o adversário e chegar mais próximo à cesta ou buscar uma melhor posição tática para
+                                a
+                                equipe. É necessário uma boa coordenação motora dos membros superiores.</li>
+                            <li><strong>Arremesso</strong>: fundamento primordial no basquete, o lançamento é a
+                                jogada em que
+                                o atleta arremessa a bola em direção à cesta com o objetivo de pontuar. Entre os
+                                tipos de
+                                arremesso, estão:
+                                <ol>
+                                    <li><strong>Bandeja</strong>: quando o jogador arremessa a bola na tabela para
+                                        cair
+                                        dentro da cesta;</li>
+                                    <li><strong>Gancho</strong>: quando, perto da tabela, o atleta projeta a bola
+                                        com o seu
+                                        corpo e arremessa utilizando uma das mãos.</li>
+                                </ol>
+                            </li>
+                            <li><strong>Rebote</strong>: quando o jogador pega a bola depois que outro jogador erra
+                                o
+                                arremesso. O rebote pode ser de ataque ou defesa. É fundamental estar preparado para
+                                os
+                                rebotes, já que pode ser uma situação de jogo decisiva para um contra-ataque.</li>
+                            <li><strong>Lance livre</strong>: arremesso sem a marcação que acontece após uma falta
+                                ou quando
+                                a equipe atinge o limite de cinco faltas por bloco de tempo do jogo.</li>
+                        </ul>
+                        </p>
                     </div><!--end fundamentos-->
 
                     <div class="conteudo" id="posicoes"> <!--posições-->
-                            <h2 class="title">Posições e suas funções</h2>
-                            <p class="descricao">Os jogadores da equipe possuem posições e funções definidas para a
-                                partida. Confira as características de
-                                cada posição:
-                            <ul>
-                                <li><strong>Armador</strong>: é considerado, de maneira geral, aquele que melhor dribla
-                                    e faz o passe
-                                    de bola do time, às vezes, é chamado de ala esquerda;</li>
-                                <li><strong>Lançador</strong>: também conhecido como escolta, é o melhor que arremessa
-                                    no time. Sua
-                                    função é defender o armador e tentar ganhar espaço na quadra para arremessar a bola
-                                    sem ser
-                                    bloqueado;</li>
-                                <li><strong>Ala/pivô</strong>: próximo da cesta, este jogador se movimenta com o intuito
-                                    de desmarcar
-                                    e receber a bola nas situações de arremesso intermediário. Essa posição também
-                                    possui habilidade
-                                    com rebotes;</li>
-                                <li><strong>Ala/lateral</strong>: é o mais versátil do time, com habilidades como o
-                                    equilíbrio.
-                                    Geralmente, é melhor lançador do que o pivô e tende a ser mais baixo do que ele;
-                                </li>
-                                <li><strong>Pivô</strong>: também conhecido como central, geralmente é o mais alto da
-                                    equipe. Sua
-                                    função é permitir uma proximidade com a cesta, possibilitando um arremesso fácil. No
-                                    momento da
-                                    defesa, ele busca bloquear os arremessos e pegar os rebotes.</li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Posições e suas funções</h2>
+                        <p class="descricao">Os jogadores da equipe possuem posições e funções definidas para a
+                            partida. Confira as características de
+                            cada posição:
+                        <ul>
+                            <li><strong>Armador</strong>: é considerado, de maneira geral, aquele que melhor dribla
+                                e faz o passe
+                                de bola do time, às vezes, é chamado de ala esquerda;</li>
+                            <li><strong>Lançador</strong>: também conhecido como escolta, é o melhor que arremessa
+                                no time. Sua
+                                função é defender o armador e tentar ganhar espaço na quadra para arremessar a bola
+                                sem ser
+                                bloqueado;</li>
+                            <li><strong>Ala/pivô</strong>: próximo da cesta, este jogador se movimenta com o intuito
+                                de desmarcar
+                                e receber a bola nas situações de arremesso intermediário. Essa posição também
+                                possui habilidade
+                                com rebotes;</li>
+                            <li><strong>Ala/lateral</strong>: é o mais versátil do time, com habilidades como o
+                                equilíbrio.
+                                Geralmente, é melhor lançador do que o pivô e tende a ser mais baixo do que ele;
+                            </li>
+                            <li><strong>Pivô</strong>: também conhecido como central, geralmente é o mais alto da
+                                equipe. Sua
+                                função é permitir uma proximidade com a cesta, possibilitando um arremesso fácil. No
+                                momento da
+                                defesa, ele busca bloquear os arremessos e pegar os rebotes.</li>
+                        </ul>
+                        </p>
 
                     </div> <!--end posições-->
                 </div> <!--conteudos-->
             </div> <!--end container→ -->
         </section> <!--end introdução-->
+
         <section id="beneficios"> <!--benefícios-->
             <h2>Benefícios</h2>
             <p>Segundo a Doutora Paola Machado (profissional em educação física e doutora em ciências da saúde pela
                 UNIFESP), os benefícios físicos e mentais do basquete podem ser aproveitados por pessoas de todas as
                 idades, principalmente as crianças. Dentre os benefícios, se destacam:</p>
-            <p><strong>Físcas</strong>: O basquetebol é um desporto aeróbico que exercita vários músculos do corpo, como
-                as pernas, braços, costas e abdómen. As constantes mudanças de direção e os movimentos de corrida e
-                salto ajudam a fortalecer os músculos e a melhorar a coordenação motora. O basquetebol também pode
-                ajudar a queimar calorias, melhorar a resistência e a força óssea, e a proteger o sistema
-                cardiovascular.</p>
-            <ul>
-                <li>
-                    <p><strong>Ganho de força e resistência muscular</strong>: Jogar basquete requer agilidade, força e
-                        resistência, sendo que você deve mover-se rapidamente e mudar de direção de forma ágil. Também
-                        trabalha a resistência muscular, que é a capacidade dos músculos de aplicarem força
-                        repetidamente por um longo período;</p>
-                </li>
-                <li>
-                    <p><strong>Melhora do equilíbrio e coordenação</strong>: O esporte exige que você desenvolva a
-                        coordenação, enquanto mantém o equilíbrio durante os movimentos. É preciso mover o corpo,
-                        saltar, girar e mudar de direção rapidamente;</p>
-                </li>
-                <li>
-                    <p><strong>Desenvolve as habilidades de movimento fundamentais</strong>: Jogar basquete oferece
-                        oportunidade de desenvolver as habilidades motoras necessárias para o desenvolvimento. Um estudo
-                        mostrou a eficácia do basquete no aprimoramento das habilidades de movimento fundamentais que as
-                        crianças precisam aprender. Jogar basquete ajuda a melhorar a coordenação motora, flexibilidade
-                        e resistência. Também estimula a velocidade, agilidade e força. Essas habilidades demonstraram
-                        ter um efeito positivo para manter o peso corporal saudável e incentivar a realização de mais
-                        atividades físicas — o que pode afetar a aptidão cardiorrespiratória e a autoestima;</p>
-                </li>
-                <li>
-                    <p><strong>Melhora a composição corporal</strong>: Em um estudo de 2018, homens não treinados
-                        realizaram 3 meses de treino de rua, o que teve um efeito positivo na aptidão geral e na
-                        composição corporal. Após o treinamento, eles aumentaram sua massa corporal magra e diminuíram o
-                        percentual de gordura corporal;</p>
-                </li>
-                <li>
-                    <p><strong>Melhora a saúde cardiovascular</strong>: A atividade física regular ajuda a melhorar a
-                        saúde cardiovascular e os níveis gerais de condicionamento físico. De acordo com pesquisas, o
-                        basquete diminui a frequência cardíaca em repouso, o que tem um efeito positivo na aptidão
-                        cardiorrespiratória e isso está ligado a um menor risco de desenvolver doenças cardiovasculares.
-                    </p>
-                </li>
-            </ul>
-            <p><strong>Mental</strong>: O basquetebol pode ajudar a melhorar a concentração, o pensamento rápido e a
-                tomada de decisão. Também pode ajudar a reduzir o estresse e ansiedade, e a melhora de humor. O
-                basquetebol também pode ajudar a desenvolver a inteligência e a rapidez de ação e raciocínio, e a
-                promover a competição e a superação do esforço.</p>
-            <ul>
-                <li>
-                    <p><strong>Benefícios emocionais</strong>: São diversos, incluindo o desenvolvimento da
-                        autoconfiança pelo apoio da equipe, redução do estresse por liberar endorfinas, melhorar a
-                        concentração e consciência. Essas ferramentas podem ser eficazes para permitir que você lide com
-                        a ansiedade em outras áreas de sua vida.</p>
-                </li>
-                <li>
-                    <p><strong>Benefícios sociais</strong>: Incentiva o espírito de equipe e desenvolve habilidades de
-                        comunicação. Um dos grandes benefícios do esporte coletivo, ainda mais para os adultos, são as
-                        conexões e amizades que também se constroem.</p>
-                </li>
-            </ul>
+            <div class="cartoes">
+                <div class="cartao"> <!--Ganho de força e resistência muscular-->
+                    <div class="cartaoInterno">
+                        <div class="lado-frente" style="background-color: rgb(93, 192, 131);">
+                            <h2>Ganho de força e resistência muscular</h2>
+                        </div>
+                        <div class="lado-atras" style="background-color: rgb(93, 192, 131);">
+                            <p>Jogar basquete requer agilidade, força e resistência, sendo que você deve mover-se
+                                rapidamente e mudar de direção de forma ágil. Também trabalha a resistência muscular,
+                                que é a capacidade dos músculos de aplicarem força repetidamente por um longo período.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!--end Ganho de força e resistência muscular-->
+
+                <div class="cartao"> <!--Melhora do equilíbrio e coordenação-->
+                    <div class="cartaoInterno">
+                        <div class="lado-frente" style="background-color: rgb(211, 165, 255);">
+                            <h2>Melhora do equilíbrio e coordenação</h2>
+                        </div>
+                        <div class="lado-atras" style="background-color: rgb(211, 165, 255);">
+                            <p>O esporte exige que você desenvolva a coordenação, enquanto mantém o equilíbrio durante
+                                os movimentos. É preciso mover o corpo, saltar, girar e mudar de direção rapidamente.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!--end Melhora do equilíbrio e coordenação-->
+
+                <div class="cartao"> <!--Melhora a saúde cardiovascular-->
+                    <div class="cartaoInterno">
+                        <div class="lado-frente" style="background-color: rgb(192, 93, 93);">
+                            <h2>Melhora a saúde cardiovascular</h2>
+                        </div>
+                        <div class="lado-atras" style="background-color: rgb(192, 93, 93);">
+                            <p>De acordo com pesquisas, o basquete ajuda a melhorar a saúde cardiovascular e os níveis
+                                gerais de condicionamento físico, diminui a frequência
+                                cardíaca em repouso, ligando a um menor risco de desenvolver doenças cardiovasculares.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!--end Melhora a saúde cardiovascular-->
+
+                <div class="cartao"> <!--Melhora a composição corporal-->
+                    <div class="cartaoInterno">
+                        <div class="lado-frente" style="background-color: rgb(231, 231, 111);">
+                            <h2>Melhora a composição corporal</h2>
+                        </div>
+                        <div class="lado-atras" style="background-color: rgb(231, 231, 111);">
+                            <p>Em um estudo de 2018, homens não treinados realizaram 3 meses de treino de rua, o que
+                                teve um efeito positivo na aptidão geral e na composição corporal. Após o treinamento,
+                                eles aumentaram sua massa corporal magra e diminuíram o percentual de gordura corporal.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!--end Melhora a composição corporal-->
+
+                <div class="cartao"> <!--Benefícios emocionais-->
+                    <div class="cartaoInterno">
+                        <div class="lado-frente atual" style="background-color: rgb(189, 48, 255);">
+                            <h2>Benefícios emocionais</h2>
+                        </div>
+                        <div class="lado-atras" style="background-color: rgb(189, 48, 255);">
+                            <p>O desenvolvimento da autoconfiança, redução
+                                do estresse por liberação de endorfinas, melhora na concentração e consciência são
+                                ferramentas
+                                importantes para permitir que você lide com a ansiedade em outras
+                                áreas de sua vida.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!--end Benefícios emocionais-->
+
+                <div class="cartao"> <!--Benefícios sociais-->
+                    <div class="cartaoInterno">
+                        <div class="lado-frente" style="background-color: rgb(255, 178, 34);">
+                            <h2>Benefícios sociais</h2>
+                        </div>
+                        <div class="lado-atras" style="background-color: rgb(255, 178, 34);">
+                            <p>Incentiva o espírito de equipe e desenvolve habilidades de comunicação. Um dos grandes
+                                benefícios do esporte coletivo, ainda mais para os adultos, são as conexões e amizades
+                                que também se constroem.
+                            </p>
+                        </div>
+                    </div>
+                </div> <!--end Benefícios sociais-->
+            </div>
         </section> <!--end benefícios-->
+
         <section id="comecarEFrequencia"> <!--começar e frequência-->
             <h2>Como começar? E com que frequência?</h2>
             <h3>Como começar?</h3><!--começar-->
@@ -359,4 +391,5 @@
     </footer><!--end rodapé-->
 </body>
 <script src="/script.js"></script>
+
 </html>
