@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athletic Punk</title>
+    <link rel="stylesheet" href="/cards.css">
     <link rel="stylesheet" href="/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,66 +55,26 @@
                 </ul>
             </div>
         </div>
-        <!-- <nav>
-            <ul>
-                <li><a href="#introducao">Introdução</a>
-                    <ul>
-                        <li><a href="#historia">História</a></li>
-                        <li><a href="#regrasBasicas">Regras Básicas</a></li>
-                        <li><a href="#pontuacao">Pontuação</a></li>
-                        <li><a href="#faltas">Faltas</a></li>
-                        <li><a href="#fundamentos">Fundamentos</a></li>
-                        <li><a href="#posicoes">Posições</a></li>
-                    </ul>
-                </li>
-                <li><a href="#beneficios">Benefícios</a></li>
-                <li><a href="#comecarEFrequencia">Como começar e com que frequência?</a></li>
-            </ul>
-        </nav> -->
     </header>
     <main> <!--conteúdo-->
         <section class="introducao"> <!--introdução-->
             <nav class="subMenu"> <!--subMenu-->
                 <ul>
                     <li id="historia" class="focado"><a onclick="conteudo('volei', 'historia')">História</a></li>
-                    <li id="regrasBasicas" ><a onclick="conteudo('volei', 'regrasBasicas')">Regras básicas</a></li>
-                    <li id="pontuacao" ><a onclick="conteudo('volei', 'pontuacao')">Pontuação</a></li>
-                    <li id="faltas" ><a onclick="conteudo('volei', 'faltas')">Faltas</a></li>
-                    <li id="fundamentos" ><a onclick="conteudo('volei', 'fundamentos')">Fundamentos</a></li>
-                    <li id="posicoes" ><a onclick="conteudo('volei', 'posicoes')">Posições</a></li>
-                    <li id="jogadores" ><a onclick="conteudo('volei', 'jogadores')">Jogadores</a></li>
+                    <li id="regrasBasicas"><a onclick="conteudo('volei', 'regrasBasicas')">Regras básicas</a></li>
+                    <li id="pontuacao"><a onclick="conteudo('volei', 'pontuacao')">Pontuação</a></li>
+                    <li id="faltas"><a onclick="conteudo('volei', 'faltas')">Faltas</a></li>
+                    <li id="fundamentos"><a onclick="conteudo('volei', 'fundamentos')">Fundamentos</a></li>
+                    <li id="posicoes"><a onclick="conteudo('volei', 'posicoes')">Posições</a></li>
+                    <li id="jogadores"><a onclick="conteudo('volei', 'jogadores')">Jogadores</a></li>
                 </ul>
             </nav> <!-- end subMenu -->
             <div class="container"> <!--container-->
-                <!-- <div class="buttons">
-                    <button class="btn" content-id="historia">
-                        História
-                    </button>
-                    <button class="btn" content-id="regrasBasicas">
-                        Regras básicas
-                    </button>
-                    <button class="btn" content-id="pontuacao">
-                        Pontuação
-                    </button>
-                    <button class="btn" content-id="faltas">
-                        Faltas
-                    </button>
-                    <button class="btn" content-id="fundamentos">
-                        Fundamentos
-                    </button>
-                    <button class="btn" content-id="posicoes">
-                        Posições
-                    </button>
-                    <button class="btn" content-id="jogadores">
-                        Jogadores
-                    </button>
-                </div> -->
-
                 <div class="conteudos"> <!--conteudos-->
 
-                    <div class="conteudo visivel" id="historia"> <!--historia-->    
-                            <h2 class="title">História</h2>
-                            <p class="descricao"> O Voleibol (ou Vôlei), foi criado em 1895 pelo diretor de educação
+                    <div class="conteudo visivel" id="historia"> <!--historia-->
+                        <h2 class="title">História</h2>
+                        <p class="descricao"> O Voleibol (ou Vôlei), foi criado em 1895 pelo diretor de educação
                             física
                             William G.
                             Morgan, com o intuito de ser um passatempo para membros mais velhos da comunidade da ACM
@@ -126,160 +87,160 @@
                     </div> <!--end historia-->
 
                     <div class="conteudo" id="regrasBasicas"> <!--regras básicas-->
-                            <h2 class="title">Regras Básicas</h2>
-                            <p class="descricao">O vôlei é jogado por duas equipes de seis atletas em uma quadra coberta
-                                de 18m
-                                de comprimento e 9m de largura. As partidas são disputadas em melhor de cinco sets. Os
-                                objetivos
-                                são:
-                            <ul>
-                                <li><strong>Ataque</strong>: fazer com que a bola toque no chão da quadra adversária o
-                                    máximo de
-                                    vezes;</li>
-                                <li><strong>Defesa</strong>: defender as bolas, não deixando tocar no chão de sua
-                                    quadra.</li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Regras Básicas</h2>
+                        <p class="descricao">O vôlei é jogado por duas equipes de seis atletas em uma quadra coberta
+                            de 18m
+                            de comprimento e 9m de largura. As partidas são disputadas em melhor de cinco sets. Os
+                            objetivos
+                            são:
+                        <ul>
+                            <li><strong>Ataque</strong>: fazer com que a bola toque no chão da quadra adversária o
+                                máximo de
+                                vezes;</li>
+                            <li><strong>Defesa</strong>: defender as bolas, não deixando tocar no chão de sua
+                                quadra.</li>
+                        </ul>
+                        </p>
                     </div> <!--end regras básicas-->
 
                     <div class="conteudo" id="pontuacao"> <!--pontuação-->
-                            <h2 class="title">Pontuação</h2>
-                            <p class="descricao">Um ponto é marcado quando a bola cai dentro da quadra adversária ou
-                                quando um
-                                erro de jogo é cometido. A
-                                primeira equipe a marcar 25 pontos (com uma diferença de dois pontos para o adversário)
-                                vence o
-                                set. Se
-                                necessário, um quinto set é jogado com 15 pontos (a margem de dois pontos continua
-                                necessária).</p>
+                        <h2 class="title">Pontuação</h2>
+                        <p class="descricao">Um ponto é marcado quando a bola cai dentro da quadra adversária ou
+                            quando um
+                            erro de jogo é cometido. A
+                            primeira equipe a marcar 25 pontos (com uma diferença de dois pontos para o adversário)
+                            vence o
+                            set. Se
+                            necessário, um quinto set é jogado com 15 pontos (a margem de dois pontos continua
+                            necessária).</p>
                     </div> <!--pontuação-->
 
                     <div class="conteudo" id="faltas"> <!--faltas-->
-                            <h2 class="title">Faltas</h2>
-                            <p class="descricao">No Voleibol, as jogadas e ações que são consideradas faltas são:
-                            <ol>
-                                <li><strong>Dois toques</strong>: quando o jogador toca duas vezes na bola ou ela toca
-                                    em partes
-                                    de
-                                    seu corpo (duas vezes, sem continuar o contato);</li>
-                                <li><strong>De posição</strong>: quando o jogador não ocupa corretamente sua posição na
-                                    quadra;
-                                </li>
-                                <li><strong>De rotação</strong>: quando o saque é feito e os jogadores não estão de
-                                    acordo com a
-                                    ordem correta definida pela rotação;</li>
-                                <li><strong>Quatro toques</strong>: quando a equipe realiza quatro toques antes de
-                                    encaminhar a
-                                    bola
-                                    para o outro campo;</li>
-                                <li><strong>Toque apoiado</strong>: quando o jogador se apoia em outro membro de sua
-                                    equipe, ou
-                                    quando ele se apoia em alguma estrutura do jogo ou objeto;</li>
-                                <li><strong>Condução</strong>: quando a bola é retida ou lançada, isto é, ela não é
-                                    rebatida
-                                    pelo
-                                    toque do jogador;</li>
-                                <li><strong>Rede</strong>: quando o jogador toca a rede.</li>
-                            </ol>
-                            </p>
+                        <h2 class="title">Faltas</h2>
+                        <p class="descricao">No Voleibol, as jogadas e ações que são consideradas faltas são:
+                        <ol>
+                            <li><strong>Dois toques</strong>: quando o jogador toca duas vezes na bola ou ela toca
+                                em partes
+                                de
+                                seu corpo (duas vezes, sem continuar o contato);</li>
+                            <li><strong>De posição</strong>: quando o jogador não ocupa corretamente sua posição na
+                                quadra;
+                            </li>
+                            <li><strong>De rotação</strong>: quando o saque é feito e os jogadores não estão de
+                                acordo com a
+                                ordem correta definida pela rotação;</li>
+                            <li><strong>Quatro toques</strong>: quando a equipe realiza quatro toques antes de
+                                encaminhar a
+                                bola
+                                para o outro campo;</li>
+                            <li><strong>Toque apoiado</strong>: quando o jogador se apoia em outro membro de sua
+                                equipe, ou
+                                quando ele se apoia em alguma estrutura do jogo ou objeto;</li>
+                            <li><strong>Condução</strong>: quando a bola é retida ou lançada, isto é, ela não é
+                                rebatida
+                                pelo
+                                toque do jogador;</li>
+                            <li><strong>Rede</strong>: quando o jogador toca a rede.</li>
+                        </ol>
+                        </p>
                     </div> <!--end faltas-->
 
                     <div class="conteudo" id="fundamentos"> <!--fundamentos-->
-                            <h2 class="title">Fundamentos</h2>
-                            <p class="descricao">Os principais fundamentos do vôlei são:
-                            <ul>
-                                <li><strong>Saque</strong>: O saque é definido quando a bola é colocada em jogo e há
-                                    diversos tipos
-                                    de saques, entre eles:
-                                    <ol>
-                                        <li>Saque por baixo;</li>
-                                        <li>Saque por cima;</li>
-                                        <li>Saque viagem.</li>
-                                    </ol>
-                                </li>
-                                <li><strong>Toque ou levantamento</strong>: O toque é um fundamento técnico utilizado em
-                                    diversas
-                                    situações no jogo, tais como: recepção, ataque e levantamento;</li>
-                                <li><strong>Manchete</strong>: A manchete é utilizada em situações de recepção de saque,
-                                    levantamento
-                                    e defesa, sendo mais comum nas recepções;</li>
-                                <li><strong>Ataque</strong>: O ataque no vôlei é composto por ações de passadas de
-                                    pernas,
-                                    movimentação de braços e saltos. A tática do ataque é crucial, já que ele é muito
-                                    importante na
-                                    marcação de pontos;</li>
-                                <li><strong>Defesa</strong>: A defesa no voleibol é caracterizada por ações técnicas que
-                                    garantem a
-                                    manutenção da bola no jogo e possibilitam o contra-ataque;</li>
-                                <li><strong>Bloqueio</strong>: O bloqueio faz parte do sistema defensivo do voleibol. A
-                                    ação
-                                    é feita
-                                    por dois jogadores ou mais que ficam próximos à rede na intenção de bloquear a bola.
-                                </li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Fundamentos</h2>
+                        <p class="descricao">Os principais fundamentos do vôlei são:
+                        <ul>
+                            <li><strong>Saque</strong>: O saque é definido quando a bola é colocada em jogo e há
+                                diversos tipos
+                                de saques, entre eles:
+                                <ol>
+                                    <li>Saque por baixo;</li>
+                                    <li>Saque por cima;</li>
+                                    <li>Saque viagem.</li>
+                                </ol>
+                            </li>
+                            <li><strong>Toque ou levantamento</strong>: O toque é um fundamento técnico utilizado em
+                                diversas
+                                situações no jogo, tais como: recepção, ataque e levantamento;</li>
+                            <li><strong>Manchete</strong>: A manchete é utilizada em situações de recepção de saque,
+                                levantamento
+                                e defesa, sendo mais comum nas recepções;</li>
+                            <li><strong>Ataque</strong>: O ataque no vôlei é composto por ações de passadas de
+                                pernas,
+                                movimentação de braços e saltos. A tática do ataque é crucial, já que ele é muito
+                                importante na
+                                marcação de pontos;</li>
+                            <li><strong>Defesa</strong>: A defesa no voleibol é caracterizada por ações técnicas que
+                                garantem a
+                                manutenção da bola no jogo e possibilitam o contra-ataque;</li>
+                            <li><strong>Bloqueio</strong>: O bloqueio faz parte do sistema defensivo do voleibol. A
+                                ação
+                                é feita
+                                por dois jogadores ou mais que ficam próximos à rede na intenção de bloquear a bola.
+                            </li>
+                        </ul>
+                        </p>
                     </div><!--end fundamentos-->
 
                     <div class="conteudo" id="posicoes"> <!--posições-->
-                            <h2 class="title">Posições e suas funções</h2>
-                            <p class="descricao">Os jogadores da equipe são distribuídos da seguinte forma: <br>
-                                <strong>Linha dos 3 (linha de frente):</strong>
-                            <ul>
-                                <li>A posição n.º 2 chama-se saída de rede;</li>
-                                <li>A posição n.º 3 chama-se meio de rede;</li>
-                                <li>A posição n.º 4 chama-se entrada de rede.</li>
-                            </ul>
-                            <strong>Linha de fundo:</strong>
-                            <ul>
-                                <li>A posição n.º 1 chama-se defesa direita, e é a posição de saque;</li>
-                                <li>A posição n.º 5 chama-se defesa esquerda;</li>
-                                <li>A posição n.º 6 chama-se defesa central.</li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Posições e suas funções</h2>
+                        <p class="descricao">Os jogadores da equipe são distribuídos da seguinte forma: <br>
+                            <strong>Linha dos 3 (linha de frente):</strong>
+                        <ul>
+                            <li>A posição n.º 2 chama-se saída de rede;</li>
+                            <li>A posição n.º 3 chama-se meio de rede;</li>
+                            <li>A posição n.º 4 chama-se entrada de rede.</li>
+                        </ul>
+                        <strong>Linha de fundo:</strong>
+                        <ul>
+                            <li>A posição n.º 1 chama-se defesa direita, e é a posição de saque;</li>
+                            <li>A posição n.º 5 chama-se defesa esquerda;</li>
+                            <li>A posição n.º 6 chama-se defesa central.</li>
+                        </ul>
+                        </p>
                     </div> <!--end posições-->
 
                     <div class="conteudo" id="jogadores"> <!--jogadores-->
-                            <h2 class="title">Jogadores</h2>
-                            <p class="descricao">Os jogadores da equipe possuem suas funções definidas para a partida.
-                                Confira
-                                as
-                                características de cada
-                                atleta:
-                            <ul>
-                                <li><strong>Líbero</strong>: Defende, principalmente recebendo saques adversários e
-                                    fazendo
-                                    passes.
-                                    Não pode atacar acima da linha de ataque;</li>
-                                <li><strong>Levantador</strong>: Recebe a bola com um passe e depois entregam a bola
-                                    para outro
-                                    jogador atacar;</li>
-                                <li><strong>Central</strong>: O central costuma ser um dos atletas mais altos em um time
-                                    de
-                                    vôlei.
-                                    Ele ataca pelo meio da rede e também é um dos principais encarregados do bloqueio;
-                                </li>
-                                <li><strong>Ponteiro</strong>: É uma posição no voleibol que exige que o jogador seja
-                                    capaz de
-                                    atacar, defender e recepcionar. O ponteiro ataca pela entrada e saída de rede, mas
-                                    também
-                                    defende o ataque do adversário e ajuda o líbero nos passes de defesa. Existem 2
-                                    tipos de
-                                    ponteiro:
-                                    <ol>
-                                        <li><strong>Ponteiro-passador</strong>: especializado em passe, entregando na
-                                            mão do
-                                            levantador;</li>
-                                        <li><strong>Ponteiro-atacante</strong>: especializado em ataque, marcando pontos
-                                            para
-                                            sua
-                                            equipe.</li>
-                                    </ol>
-                                </li>
-                                <li><strong>Oposto</strong>: principal atacante do time e joga na posição diretamente
-                                    oposta ao
-                                    levantador.</li>
-                            </ul>
-                            </p>
+                        <h2 class="title">Jogadores</h2>
+                        <p class="descricao">Os jogadores da equipe possuem suas funções definidas para a partida.
+                            Confira
+                            as
+                            características de cada
+                            atleta:
+                        <ul>
+                            <li><strong>Líbero</strong>: Defende, principalmente recebendo saques adversários e
+                                fazendo
+                                passes.
+                                Não pode atacar acima da linha de ataque;</li>
+                            <li><strong>Levantador</strong>: Recebe a bola com um passe e depois entregam a bola
+                                para outro
+                                jogador atacar;</li>
+                            <li><strong>Central</strong>: O central costuma ser um dos atletas mais altos em um time
+                                de
+                                vôlei.
+                                Ele ataca pelo meio da rede e também é um dos principais encarregados do bloqueio;
+                            </li>
+                            <li><strong>Ponteiro</strong>: É uma posição no voleibol que exige que o jogador seja
+                                capaz de
+                                atacar, defender e recepcionar. O ponteiro ataca pela entrada e saída de rede, mas
+                                também
+                                defende o ataque do adversário e ajuda o líbero nos passes de defesa. Existem 2
+                                tipos de
+                                ponteiro:
+                                <ol>
+                                    <li><strong>Ponteiro-passador</strong>: especializado em passe, entregando na
+                                        mão do
+                                        levantador;</li>
+                                    <li><strong>Ponteiro-atacante</strong>: especializado em ataque, marcando pontos
+                                        para
+                                        sua
+                                        equipe.</li>
+                                </ol>
+                            </li>
+                            <li><strong>Oposto</strong>: principal atacante do time e joga na posição diretamente
+                                oposta ao
+                                levantador.</li>
+                        </ul>
+                        </p>
                     </div> <!--end jogadores-->
                 </div> <!--conteudos-->
             </div> <!--end container-->
@@ -293,38 +254,67 @@
                 desenvolver o senso de cooperação e coletividade. Vale lembrar que o vôlei também é um esporte
                 inclusivo, já que há a modalidade criada para a prática de pessoas com deficiência, o chamado vôlei
                 sentado.</p>
-            <p>Físicos:</p>
-            <ul>
-                <li>
-                    <p><strong>Controle de peso</strong>: Jogar vôlei por apenas meia hora ajuda a queimar até 133
-                        calorias, sendo, por isso, um esporte que contribui para manter o peso de maneira saudável;</p>
-                </li>
-                <li>
-                    <p><strong>Fortalece o corpo</strong>: O voleibol estimula os membros superiores e inferiores,
-                        aumentando a flexibilidade e a coordenação motora. Também desenvolve explosão, agilidade e
-                        capacidade de reação;</p>
-                </li>
-                <li>
-                    <p><strong>Melhora a saúde cardiorrespiratória</strong>: Além de ampliar a sua capacidade de
-                        respiração, o vôlei também melhora a circulação de sangue e nutrientes pelo corpo. O resultado é
-                        um coração mais fortalecido.</p>
-                </li>
-            </ul>
-            <p>Mentais: Se você busca por benefícios do vôlei para a saúde mental, essa atividade te ajuda:</p>
-            <ul>
-                <li>
-                    <p><strong>Estresse e humor</strong>: O Voleibol libera uma quantidade de adrenalina que ajuda a
-                        aliviar o estresse. De maneira geral, também contribui para o aumento do humor e bem-estar;</p>
-                </li>
-                <li>
-                    <p><strong>Autoconfiança</strong>: O voleibol pode também melhorar a autoconfiança e a autoestima, e
-                        reduzir os sintomas da tensão pré-menstrual (TPM);</p>
-                </li>
-                <li>
-                    <p><strong>Promover a interação social</strong>: O voleibol é um esporte coletivo que estimula a
-                        interação social entre os jogadores, tanto dentro como fora da quadra.</p>
-                </li>
-            </ul>
+            <div class="cartoes">
+                <div class="cartao"> <!--controle de peso-->
+                    <div class="frente atual">
+                        <h2>Controle de peso</h2>
+                    </div>
+                    <div class="atras">
+                        <p>Jogar vôlei por apenas meia hora ajuda a queimar até 133 calorias, sendo, por isso, um
+                            esporte que contribui para manter o peso de maneira saudável;</p>
+                    </div>
+                </div> <!--end controle de peso-->
+
+                <div class="cartao"> <!--fortalecimento do corpo-->
+                    <div class="frente atual">
+                        <h2>Fortalecimento do corpo</h2>
+                    </div>
+                    <div class="atras">
+                        <p>O voleibol estimula os membros superiores e inferiores, aumentando a flexibilidade e a
+                            coordenação motora. Também desenvolve explosão, agilidade e capacidade de reação.</p>
+                    </div>
+                </div> <!--end fortalecimento do corpo-->
+
+                <div class="cartao"> <!--saúde cardiorrespiratória-->
+                    <div class="frente atual">
+                        <h2>Melhoria na saúde cardiorrespiratória</h2>
+                    </div>
+                    <div class="atras">
+                        <p>Além de ampliar a sua capacidade de respiração, o vôlei também melhora a circulação de sangue
+                            e nutrientes pelo corpo. O resultado é um coração mais fortalecido.</p>
+                    </div>
+                </div> <!--end saúde cardiorrespiratória-->
+
+                <div class="cartao"> <!--estresse e humor-->
+                    <div class="frente atual">
+                        <h2>Estresse e humor</h2>
+                    </div>
+                    <div class="atras">
+                        <p>O Voleibol libera uma quantidade de adrenalina que ajuda a aliviar o estresse. De maneira
+                            geral, também contribui para o aumento do humor e bem-estar.</p>
+                    </div>
+                </div> <!--end estresse e humor-->
+
+                <div class="cartao"> <!--autoconfiança-->
+                    <div class="frente atual">
+                        <h2>Autoconfiança</h2>
+                    </div>
+                    <div class="atras">
+                        <p>O voleibol pode também melhorar a autoconfiança e a autoestima, e reduzir os sintomas da
+                            tensão pré-menstrual (TPM).</p>
+                    </div>
+                </div> <!--end autoconfiança-->
+
+                <div class="cartao"> <!--interação social-->
+                    <div class="frente atual">
+                        <h2>Interação social</h2>
+                    </div>
+                    <div class="atras">
+                        <p>O voleibol é um esporte coletivo que estimula a interação social entre os jogadores, tanto
+                            dentro como fora da quadra.</p>
+                    </div>
+                </div> <!--end interação social-->
+            </div>
         </section> <!--end benefícios-->
 
         <section id="comecarEFrequencia"> <!--começar e frequência-->
@@ -404,4 +394,5 @@
     </footer> <!--end rodapé-->
 </body>
 <script src="/script.js"></script>
+
 </html>
