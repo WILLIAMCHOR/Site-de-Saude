@@ -8,7 +8,7 @@
     height: 360px;
     width: 300px;
     text-align: center;
-    margin: 1vw;
+    margin: 0 1vw 0 1vw;
 }
 
 .cartaoInterno {
@@ -30,15 +30,17 @@
     backface-visibility: hidden;
     border-radius: 20px;
     background-color: antiquewhite;
-    height: 250px;
+    height: 280px;
     width: 250px;
 }
 
 .cartao h2 {
+    margin: 5vw 0 3vw 0;
     font-size: 18px;
 }
 
 .cartao p {
     font-size: 14px;
     color: black;
+    margin: 0 0.5vw 0 0.5vw;
 }
