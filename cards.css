@@ -1,20 +1,44 @@
-section#beneficios div.cartoes {
+.cartoes { /*container*/
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-section#beneficios div.cartoes div.cartao {
-    height: 400px;
-    width: 600px;
+.cartao { /*flip-card*/
+    height: 360px;
+    width: 300px;
     text-align: center;
-    margin: 2vw 1vw 2vw 1vw;
+    margin: 1vw;
+}
+
+.cartaoInterno {
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.cartao:hover .cartaoInterno { 
+    transform: rotateY(-180deg);
+}
+
+.cartao .lado-atras { 
+    transform: rotateY(-180deg);
+}
+
+.lado-frente, .lado-atras {
+    position: absolute;
+    backface-visibility: hidden;
     border-radius: 20px;
     background-color: antiquewhite;
+    height: 250px;
+    width: 250px;
 }
 
-section#beneficios div.cartoes div.cartao h2 {
+.cartao h2 {
     font-size: 18px;
 }
 
-section#beneficios div.cartoes div.cartao p {
+.cartao p {
     font-size: 14px;
+    color: black;
 }
