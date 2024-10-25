@@ -1,4 +1,6 @@
 .cartoes { /*container*/
+    position: relative;
+    z-index: 5;
     display: flex;
     justify-content: center;
     width: 100%;
