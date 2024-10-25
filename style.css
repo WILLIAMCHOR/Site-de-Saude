@@ -5,10 +5,6 @@
     list-style: none;
     border: 0;
     font-family: "Krona One"; /* , sans-serif */
-    /* 
-    font-weight: 400;
-    font-style: normal;
-    */
 }
 
 /*CSS reset*/
@@ -204,9 +200,11 @@ nav.navegador ul details ul {
     border-radius: 0 0 30px 30px;
     text-align: center;
     z-index: 5;
-
 }
 
+ul.navegador {
+    height: 50px;
+}
 nav.navegador ul details ul li {
     /* Adicionando espaçamento na LI da DETAILS */
     padding: 3px 0 3px 0;
@@ -324,11 +322,7 @@ section.introducao {
 .index .quadroImages img {
     width: 40%;
 } 
-.index .quadroImages img:hover {
-    width: 30vw;
-    height: 20vw;
-    transition: 400ms linear;
-}
+
 
 /*-----------------------------------------
             formatação sobreNos     
@@ -380,12 +374,73 @@ section.introducao {
 .volei header  {
     background-image: url(src/volei/páginaVolei.jpg);
 }
+.futebol header  {
+    background-image: url(src/futebolBanner.jpg);
+}
+/*-----------------------------------------
+        formatação ginástica     
+--------------------------------------*/
+.ginastica header  {
+    background-image: url(src/ginasticaBanner.jpg);
+}
 /*-----------------------------------------
             formatação sobreNos      
     --------------------------------------*/
-.sobreNos header {
-    height: 16vw;
+.sobreNos header, .contato header {
+    background-image: url(src//sobreNos/sobreNos.jpeg);
 }
 .sobreNos header .divHeader {
     margin-bottom: 2vw;
+}
+
+.sobreNos ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sobreNos ul li {
+    margin: 2vw;
+    text-align: center;
+}
+
+.sobreNos ul li a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sobreNos ul li img.desenvolvedores {
+    height: 200px;
+}
+
+.contato header .divHeader {
+    margin-bottom: 2vw;
+}
+
+.contato ul {
+    display: flex;
+    justify-content: center;
+}
+
+.contato ul li {
+    margin: 2vw;
+    text-align: center;
+}
+
+.contato ul li a {
+    color: rgb(22, 22, 22);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato ul li img.desenvolvedores {
+    height: 200px;
+}
+
+.contato ul li p {
+    font-size: 15px;
+}
+
+.contato section.referencias ul li.referencias a {
+    color: rgb(214, 255, 242);
 }

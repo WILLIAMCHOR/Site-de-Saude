@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Athletic Punk</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/cards.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../cards.css">
+    <link rel="stylesheet" href="../flexGrow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
@@ -232,10 +233,10 @@
             <div class="cartoes">
                 <div class="cartao"> <!--Ganho de força e resistência muscular-->
                     <div class="cartaoInterno">
-                        <div class="lado-frente" style="background-color: rgb(93, 192, 131);">
+                        <div class="lado-frente" style="background-color: rgb(101, 126, 110);">
                             <h2>Ganho de força e resistência muscular</h2>
                         </div>
-                        <div class="lado-atras" style="background-color: rgb(93, 192, 131);">
+                        <div class="lado-atras" style="background-color: rgb(101, 126, 110);;">
                             <p>Jogar basquete requer agilidade, força e resistência, sendo que você deve mover-se
                                 rapidamente e mudar de direção de forma ágil. Também trabalha a resistência muscular,
                                 que é a capacidade dos músculos de aplicarem força repetidamente por um longo período.
@@ -246,10 +247,10 @@
 
                 <div class="cartao"> <!--Melhora do equilíbrio e coordenação-->
                     <div class="cartaoInterno">
-                        <div class="lado-frente" style="background-color: rgb(211, 165, 255);">
+                        <div class="lado-frente" style="background-color: rgb(102, 90, 112);">
                             <h2>Melhora do equilíbrio e coordenação</h2>
                         </div>
-                        <div class="lado-atras" style="background-color: rgb(211, 165, 255);">
+                        <div class="lado-atras" style="background-color: rgb(102, 90, 112);">
                             <p>O esporte exige que você desenvolva a coordenação, enquanto mantém o equilíbrio durante
                                 os movimentos. É preciso mover o corpo, saltar, girar e mudar de direção rapidamente.
                             </p>
@@ -259,10 +260,10 @@
 
                 <div class="cartao"> <!--Melhora a saúde cardiovascular-->
                     <div class="cartaoInterno">
-                        <div class="lado-frente" style="background-color: rgb(192, 93, 93);">
+                        <div class="lado-frente" style="background-color: rgb(144, 104, 104);">
                             <h2>Melhora a saúde cardiovascular</h2>
                         </div>
-                        <div class="lado-atras" style="background-color: rgb(192, 93, 93);">
+                        <div class="lado-atras" style="background-color: rgb(144, 104, 104);">
                             <p>De acordo com pesquisas, o basquete ajuda a melhorar a saúde cardiovascular e os níveis
                                 gerais de condicionamento físico, diminui a frequência
                                 cardíaca em repouso, ligando a um menor risco de desenvolver doenças cardiovasculares.
@@ -273,10 +274,10 @@
 
                 <div class="cartao"> <!--Melhora a composição corporal-->
                     <div class="cartaoInterno">
-                        <div class="lado-frente" style="background-color: rgb(231, 231, 111);">
+                        <div class="lado-frente" style="background-color: rgb(183, 183, 118);">
                             <h2>Melhora a composição corporal</h2>
                         </div>
-                        <div class="lado-atras" style="background-color: rgb(231, 231, 111);">
+                        <div class="lado-atras" style="background-color: rgb(183, 183, 118);">
                             <p>Em um estudo de 2018, homens não treinados realizaram 3 meses de treino de rua, o que
                                 teve um efeito positivo na aptidão geral e na composição corporal. Após o treinamento,
                                 eles aumentaram sua massa corporal magra e diminuíram o percentual de gordura corporal.
@@ -287,10 +288,10 @@
 
                 <div class="cartao"> <!--Benefícios emocionais-->
                     <div class="cartaoInterno">
-                        <div class="lado-frente atual" style="background-color: rgb(189, 48, 255);">
+                        <div class="lado-frente atual" style="background-color: rgb(142, 117, 153);">
                             <h2>Benefícios emocionais</h2>
                         </div>
-                        <div class="lado-atras" style="background-color: rgb(189, 48, 255);">
+                        <div class="lado-atras" style="background-color: rgb(142, 117, 153);">
                             <p>O desenvolvimento da autoconfiança, redução
                                 do estresse por liberação de endorfinas, melhora na concentração e consciência são
                                 ferramentas
@@ -303,10 +304,10 @@
 
                 <div class="cartao"> <!--Benefícios sociais-->
                     <div class="cartaoInterno">
-                        <div class="lado-frente" style="background-color: rgb(255, 178, 34);">
+                        <div class="lado-frente" style="background-color: rgb(165, 146, 110);">
                             <h2>Benefícios sociais</h2>
                         </div>
-                        <div class="lado-atras" style="background-color: rgb(255, 178, 34);">
+                        <div class="lado-atras" style="background-color: rgb(165, 146, 110);">
                             <p>Incentiva o espírito de equipe e desenvolve habilidades de comunicação. Um dos grandes
                                 benefícios do esporte coletivo, ainda mais para os adultos, são as conexões e amizades
                                 que também se constroem.
@@ -320,52 +321,63 @@
         <section id="comecarEFrequencia"> <!--começar e frequência-->
             <h2>Como começar? E com que frequência?</h2>
             <h3>Como começar?</h3><!--começar-->
-            <ul>
-                <li>
-                    <p><strong>Aprenda as regras básicas</strong>: Aprender as regras do basquete é o primeiro passo
+
+            <div class="slider">
+                <div class="slide" id="claro" style="background-color: rgb(204, 204, 204);"> <!--regras básicas-->
+                    <h4>Aprenda as regras básicas</h4>
+                    <p>Aprender as regras do basquete é o primeiro passo
                         para iniciar na modalidade. Ao se familiarizar com as normas, é possível entender de fato qual é
-                        o objetivo do jogo;</p>
-                </li>
-                <li>
-                    <p><strong>Prepare-se e invista nos equipamentos</strong>: Ao entender como é o jogo de basquete,
-                        assim como suas regras, é hora de se preparar para praticar, ou seja, separar os equipamentos
-                        para entrar em quadra. Como a modalidade envolve muita corrida e salto, o ideal é optar por
+                        o objetivo do jogo.</p>
+                </div> <!--regras básicas-->
+
+                <div class="slide" id="escuro" style="background-color: rgb(76, 76, 76);">
+                    <!--Prepare-se e invista nos equipamentos-->
+                    <h4>Prepare-se e invista nos equipamentos</h4>
+                    <p>Como a modalidade envolve muita corrida e salto, o ideal é optar por
                         roupas e tênis adequados, que favoreçam a proteção. Por fim, o mais importante: a bola. Busque
-                        uma opção indicada para o esporte. Atualmente, existem versões desenvolvidas especialmente para
-                        crianças e adolescentes de cada faixa etária. Atente-se a isso antes de comprá-las;</p>
-                </li>
-                <li>
-                    <p><strong>Não esqueça de se aquecer!</strong>: Antes de aprender como jogar basquete, é fundamental
+                        uma opção indicada para o esporte.</p>
+                </div> <!--end Prepare-se e invista nos equipamentos-->
+
+                <div class="slide" id="claro" style="background-color: rgb(204, 204, 204);">
+                    <!--Não esqueça de se aquecer!-->
+                    <h4>Não esqueça de se aquecer!</h4>
+                    <p>Antes de aprender como jogar basquete, é fundamental
                         se aquecer. O aquecimento no esporte ajuda a evitar lesões e é uma maneira eficiente de aumentar
                         o desempenho em quadra. Além disso, se aquecer auxilia na flexibilidade e respiração durante as
                         partidas, além de favorecer a coordenação motora. Então, independentemente da idade, não esqueça
-                        do aquecimento antes de jogar;</p>
-                </li>
-                <li>
-                    <p><strong>Comece com a pegada de bola e técnicas de passe</strong>: Depois de se preparar e
+                        do aquecimento antes de jogar.</p>
+                </div> <!--end Não esqueça de se aquecer!-->
+
+                <div class="slide" id="escuro" style="background-color: rgb(76, 76, 76);">
+                    <!--Comece com a pegada de bola e técnicas de passe-->
+                    <h4>Comece com a pegada de bola e técnicas de passe</h4>
+                    <p>Depois de se preparar e
                         aquecer, é hora de jogar. Assim, uma boa forma de aprender a jogar basquete é começar com as
                         técnicas de pegada de bola e passe. Existem diferentes tipos de passe, como o passe de duas
                         mãos, direto ou pelo chão. Ao entender como segurar e passar para os outros jogadores, ficará
-                        mais fácil se posicionar no jogo;</p>
-                </li>
-                <li>
-                    <p><strong>Aprenda a driblar e arremessar</strong>: Sabendo como pegar na bola e passar, é hora de
-                        praticar os dribles e arremessos. No basquete, uma das principais regras é que os atletas só
+                        mais fácil se posicionar no jogo.</p>
+                </div> <!--end Comece com a pegada de bola e técnicas de passe-->
+
+                <div class="slide" id="claro" style="background-color: rgb(204, 204, 204);">
+                    <!--Aprenda a driblar e arremessar-->
+                    <h4>Aprenda a driblar e arremessar</h4>
+                    <p>No basquete, uma das principais regras é que os atletas só
                         podem se movimentar na quadra driblando, ou seja, quicando a bola pelo chão. Para fazer isso, a
                         dica é trabalhar o posicionamento do corpo, o drible baixo e o controle de bola. Entendendo como
                         driblar os adversários, você pode passar para o arremesso. O arremesso é uma das habilidades
-                        mais importantes no basquete, afinal, para ganhar, é necessário marcar pontos na cesta. Lançar a
-                        bola não é uma tarefa tão difícil, você só precisa saber como segurá-la para o ato, o que você
-                        pode adquirir repetindo os movimentos;</p>
-                </li>
-                <li>
-                    <p><strong>Conheça as táticas de defesa</strong>: Por fim, para descobrir como jogar basquete você
+                        mais importantes no basquete, afinal, para ganhar, é necessário marcar pontos na cesta.</p>
+                </div> <!--end Aprenda a driblar e arremessar-->
+
+                <div class="slide" id="escuro" style="background-color: rgb(76, 76, 76);">
+                    <!--Conheça as táticas de defesa-->
+                    <h4>Conheça as táticas de defesa</h4>
+                    <p>Para descobrir como jogar basquete você
                         também precisará conhecer as principais táticas de defesa. A ideia aqui é se familiarizar com as
                         posições defensivas para impedir que o adversário marque pontos. Entretanto, vale lembrar que
                         apesar de ser um jogo de contato, é importante respeitar os demais participantes, assim como as
                         regras da modalidade. Tenha cautela e conheça seus limites.</p>
-                </li>
-            </ul> <!--end começar-->
+                </div> <!--end Conheça as táticas de defesa-->
+            </div>
 
             <h3>Com qual frequência devo praticar?</h3> <!--frequência-->
             <p>Se você for um iniciante sedentário, o ideal é que o esporte seja praticado ao menos duas vezes por
@@ -390,6 +402,6 @@
         </ul>
     </footer><!--end rodapé-->
 </body>
-<script src="/script.js"></script>
+<script src="../script.js"></script>
 
 </html>

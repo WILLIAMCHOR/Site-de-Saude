@@ -1,0 +1,48 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+}
+
+.slide {
+    height: 250px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+    overflow: hidden;
+    transition: 0.4s all;
+}
+
+#claro h4, #claro p {
+    color: black;
+}
+
+#escuro h4, #escuro p {
+    color: white;
+}
+
+.slide p {
+    display: none;
+}
+
+.slide:hover {
+    flex: 3;
+}
+
+.slide:hover h4 {
+    display: none;
+}
+
+.slide:hover p {
+    display: block;
+}
+
+h4 {
+    margin: 6vw 0.5vw 0 0.5vw;
+}
+
+.slide p {
+    margin: 0.5vw;
+    font-size: 15px;
+}
