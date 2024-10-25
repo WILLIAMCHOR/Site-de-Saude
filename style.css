@@ -314,7 +314,15 @@ section.introducao {
     background: #5B5A5A;
     padding: 3vw 2vw;
     border-radius: 10px;
+}    
+/*-----------------------------------------
+            formatação fubebol      
+    --------------------------------------*/
+.futebol header {
+    background-image: url(src/banner/banner.futebol.jpg);
 }
+
+
 .index .esportes {
     margin: 0 10%;
 }
