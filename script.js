@@ -15,3 +15,24 @@ function conteudo(a, b) {
         conteudo.className = "conteudo visivel"
     }
 }
+const headerIndex = document.querySelector('.index').querySelector('header');
+headerIndex.className = 'um';
+let timer = 0;
+setInterval(() => {
+    if (timer == 0) {
+        headerIndex.className = 'um';
+        timer++;
+    }
+    else if (timer == 1) {
+        headerIndex.className = 'dois';
+        timer++;
+    }
+    else if (timer == 2) {
+        headerIndex.className = 'tres';
+        timer++;
+    }
+    else {
+        headerIndex.className = 'quatro';
+        timer = 0;
+    }
+}, 2 * 1000);

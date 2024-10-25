@@ -31,6 +31,7 @@ h3 {
     /* HEADER */
 /* Tamanho e formatação do header */
 header {
+    background-attachment: fixed;
     overflow: hidden;
     width: 100%;
     height: 100vh;
@@ -273,20 +274,24 @@ section.introducao {
     margin: 0 10px 10px 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
 /*-----------------------------------------
             formatação do index    
     --------------------------------------*/
 .index header {
+    transition: background linear 0.25s;
+}
+.index header.um {
     /* Recomendo usar essas configurações no resto das páginas */
-    background-image: url(src/banner/banner.rebecaandrade.jpeg);
-    
+    background-image:  url(src/banner/banner.rebecaandrade.jpeg);
+}
+.index header.dois {
+    background-image:  url(src/banner/banner.basquete.jpg);
+}
+.index header.tres {
+    background-image:  url(src/banner/banner.futebol.jpg);
+}
+.index header.quatro {
+    background-image:  url(src/banner/banner.seleçãofeminina.jpeg);
 }
 .index .boasVindas {
     margin: 0 15%;
