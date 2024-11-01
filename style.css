@@ -4,7 +4,8 @@
     vertical-align: baseline;
     list-style: none;
     border: 0;
-    font-family: "Krona One"; /* , sans-serif */
+    font-family: "Krona One";
+    /* , sans-serif */
 }
 
 /*CSS reset*/
@@ -14,6 +15,7 @@
 body {
     background: #727272;
 }
+
 h2 {
     font-size: 2.5rem;
     text-align: center;
@@ -24,7 +26,7 @@ h3 {
     text-align: center;
 }
 
-    /* HEADER */
+/* HEADER */
 /* Tamanho e formatação do header */
 header {
     background-attachment: fixed;
@@ -34,6 +36,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Div para escurecer imagem */
 header .escurecerImagemHeader {
     width: 100%;
@@ -43,11 +46,13 @@ header .escurecerImagemHeader {
     justify-content: center;
     align-items: end;
 }
+
 /* Div dos h no header */
 header .divHeader {
     text-align: center;
     margin-bottom: 10vw;
 }
+
 /* H12 */
 header h1 {
     font-family: 'Krona One';
@@ -55,6 +60,7 @@ header h1 {
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
+
 header h2 {
     color: white;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
@@ -67,6 +73,7 @@ header .divHeader .pequenosDetalhes {
     display: flex;
     align-items: center;
 }
+
 header .divHeader .pequenosDetalhes .bolinha {
     width: 10px;
     height: 10px;
@@ -75,6 +82,7 @@ header .divHeader .pequenosDetalhes .bolinha {
     border-radius: 100%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
+
 header .divHeader .pequenosDetalhes .linhazinha {
     width: 300px;
     height: 5px;
@@ -84,56 +92,66 @@ header .divHeader .pequenosDetalhes .linhazinha {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
-    /* MAIN */ 
+/* MAIN */
 main h2 {
     padding-bottom: 2vw;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
+
 main h3 {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
     padding-bottom: 2vw;
 }
-/* paragrafo */ 
+
+/* paragrafo */
 p {
     font-size: 1.35rem;
     line-height: 1.4em;
     color: white;
     padding: 1vw 0;
 }
+
 p strong {
     color: black;
 }
+
 /* sections */
 section {
-    padding: 2vw 5%; 
+    padding: 2vw 5%;
 }
+
 /* Border das setions */
 .linhaBorder {
     width: 90%;
     margin: 0 5%;
     border: 2px solid #D9D9D9;
 }
-/* FOOTER */ 
+
+/* FOOTER */
 footer {
     background: #5B5A5A;
     padding: 2.5vw 0;
 }
+
 footer p {
     font-size: 1rem;
     text-align: center;
     color: black;
     padding: 0;
 }
+
 footer ul {
     display: flex;
     justify-content: center;
 }
+
 footer ul li {
     font-size: 0.8rem;
     margin: 3px 7px;
     padding: 2px 3px;
     border-bottom: 2px solid;
 }
+
 /*-----------------------------------------
             formatação do menu          
     ---------------------------------------*/
@@ -208,30 +226,34 @@ nav.navegador ul details ul {
 ul.navegador {
     height: 50px;
 }
+
 nav.navegador ul details ul li {
     /* Adicionando espaçamento na LI da DETAILS */
     padding: 3px 0 3px 0;
     opacity: 0.8;
 }
+
 /*-----------------------------------------
             formatação do introdução  
     --------------------------------------*/
 section.introducao {
-    margin: 2vw 5%; 
+    margin: 2vw 5%;
     padding: 0 2vw 2vw 2vw;
     border-radius: 5px;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.2);
 }
+
 .conteudos .conteudo {
     visibility: hidden;
     position: absolute;
 }
+
 .conteudos .conteudo.visivel {
     visibility: visible;
     position: static;
 }
-    
+
 /*-----------------------------------------
             formatação do subMenu    
     --------------------------------------*/
@@ -239,83 +261,99 @@ section.introducao {
     width: 90%;
     padding: 5px 5%;
 }
+
 .subMenu a {
     font-size: 0.85rem;
     text-decoration: none;
     color: black;
 }
+
 .subMenu ul {
     display: flex;
     align-items: end;
     justify-content: center;
 }
+
 .subMenu ul li {
     margin: 5px 10px 5px 10px;
     padding: 5px 10px 5px 10px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     cursor: pointer;
-    transition: 
-    background 0.3s,
-    margin 0.3s,
-    box-shadow 0.3s
-    ;
+    transition:
+        background 0.3s,
+        margin 0.3s,
+        box-shadow 0.3s;
 }
+
 .subMenu ul li:hover {
     background: rgba(255, 255, 255, 0.45);
     margin: 0 10px 10px 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
+
 .subMenu li:active {
     opacity: 0.5;
 }
+
 .subMenu li.focado {
     background: rgba(255, 255, 255, 0.7);
     margin: 0 10px 10px 10px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
+
 /*-----------------------------------------
             formatação do index    
     --------------------------------------*/
 .index header {
-    transition: background linear 0.25s;
+    transition: transform 0.4s ease;
 }
+
 .index header.um {
     /* Recomendo usar essas configurações no resto das páginas */
-    background-image:  url(src/banner/banner.rebecaandrade.jpeg);
+    background-image: url(src/banner/banner.rebecaandrade.jpeg);
 }
+
 .index header.dois {
-    background-image:  url(src/banner/banner.basquete.jpg);
+    background-image: url(src/banner/banner.basquete.jpg);
 }
+
 .index header.tres {
-    background-image:  url(src/banner/banner.futebol.jpg);
+    background-image: url(src/banner/banner.futebol.jpg);
 }
+
 .index header.quatro {
-    background-image:  url(src/banner/banner.seleçãofeminina.jpeg);
+    background-image: url(src/banner/banner.seleçãofeminina.jpeg);
 }
+
 .index .boasVindas {
     margin: 0 15%;
 }
+
 .index .divFlex {
     margin: 3vw 10%;
     display: flex;
     justify-content: space-between;
 }
+
 .index .divFlex p {
     width: 70%;
 }
+
 .index .divFlex img {
     width: 250px;
     height: 250px;
     background: #D9D9D9;
     border-radius: 10px;
 }
+
 .index .divDark {
     margin: 0 5%;
     background: #5B5A5A;
     padding: 3vw 2vw;
     border-radius: 10px;
-}    
+}
+
 /*-----------------------------------------
             formatação fubebol      
     --------------------------------------*/
@@ -327,6 +365,7 @@ section.introducao {
 .index .esportes {
     margin: 0 10%;
 }
+
 .index .quadroImages {
     display: flex;
     flex-wrap: wrap;
@@ -334,97 +373,104 @@ section.introducao {
     text-align: center;
     margin: 2vw 0;
 }
+
 .index .quadroImages img {
     width: 40%;
-} 
+}
 
 
 /*-----------------------------------------
             formatação sobreNos     
     --------------------------------------*/
-    
-    section#sobreNos {
-        padding: 3vw 15vw 0 15vw;
-    }
-    
-    section#sobreNos h2 {
-        font-size: 4.3rem;
-        margin: 2vw 0 0 0;
-    }
-    
-    section#sobreNos h3{
-        margin: 1vw 0 2vw 0;
-    }
-    
-    section#sobreNos p {
-        margin: 2vw 0 3vw;
-    }
-    
-    section#sobreNos #equipe{
-        list-style-type: disc;
-        color: white;
-        margin: 0 1.4vw 0 1.4vw;
-        font-size: 1.5rem;
-    }
-    
-    section#obs {
-        padding: 3vw 15vw 0 15vw;
-        background-color: #5B5A5A;
-    }
-    
-    section#obs h3 {
-        margin: 0 0 2vw 0
-    }
-    
+
+section#sobreNos {
+    padding: 3vw 15vw 0 15vw;
+}
+
+section#sobreNos h2 {
+    font-size: 4.3rem;
+    margin: 2vw 0 0 0;
+}
+
+section#sobreNos h3 {
+    margin: 1vw 0 2vw 0;
+}
+
+section#sobreNos p {
+    margin: 2vw 0 3vw;
+}
+
+section#sobreNos #equipe {
+    list-style-type: disc;
+    color: white;
+    margin: 0 1.4vw 0 1.4vw;
+    font-size: 1.5rem;
+}
+
+section#obs {
+    padding: 3vw 15vw 0 15vw;
+    background-color: #5B5A5A;
+}
+
+section#obs h3 {
+    margin: 0 0 2vw 0
+}
+
 /*-----------------------------------------
             formatação basket      
     --------------------------------------*/
 
-.basquete header  {
+.basquete header {
     background-image: url(src/banner/banner.basquete.jpg);
 }
+
 /*-----------------------------------------
             formatação volei      
     --------------------------------------*/
-.volei header  {
+.volei header {
     background-image: url(src/volei/páginaVolei.jpg);
 }
-.futebol header  {
+
+.futebol header {
     background-image: url(src/futebolBanner.jpg);
 }
+
 /*-----------------------------------------
         formatação ginástica     
 --------------------------------------*/
-.ginastica header  {
+.ginastica header {
     background-image: url(src/ginasticaBanner.jpg);
 }
+
 /*-----------------------------------------
             formatação sobreNos      
     --------------------------------------*/
-.sobreNos header, .contato header {
+.sobreNos header,
+.contato header {
     background-image: url(src//sobreNos/sobreNos.jpeg);
 }
+
 .sobreNos header .divHeader {
     margin-bottom: 2vw;
 }
 
-.sobreNos ul {
+section.sobreNos ul {
     display: flex;
     justify-content: center;
 }
 
-.sobreNos ul li {
+section.sobreNos ul li {
     margin: 2vw;
     text-align: center;
 }
 
-.sobreNos ul li a {
+section.sobreNos ul li a {
     color: rgb(22, 22, 22);
     text-decoration: none;
     font-weight: bold;
 }
 
-.sobreNos ul li img.desenvolvedores {
+section.sobreNos ul li img.desenvolvedores {
     height: 200px;
 }
 
@@ -432,30 +478,40 @@ section.introducao {
     margin-bottom: 2vw;
 }
 
-.contato ul {
+section.contato ul {
     display: flex;
     justify-content: center;
 }
 
-.contato ul li {
+section.contato ul li {
     margin: 2vw;
     text-align: center;
 }
 
-.contato ul li a {
+section.contato ul li a {
     color: rgb(22, 22, 22);
     text-decoration: none;
     font-weight: bold;
 }
 
-.contato ul li img.desenvolvedores {
+section.contato ul li img.desenvolvedores {
     height: 200px;
 }
 
-.contato ul li p {
+section.contato ul li p {
     font-size: 15px;
 }
 
-.contato section.referencias ul li.referencias a {
+section.referencias ul {
+    display: flex;
+    justify-content: center;
+}
+
+section.referencias ul li {
+    margin: 2vw;
+}
+
+section.referencias ul li.referencias a {
     color: rgb(214, 255, 242);
+
 }

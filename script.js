@@ -15,6 +15,8 @@ function conteudo(a, b) {
         conteudo.className = "conteudo visivel"
     }
 }
+
+//CARROSSEL
 const headerIndex = document.querySelector('.index').querySelector('header');
 headerIndex.className = 'um';
 let timer = 0;
